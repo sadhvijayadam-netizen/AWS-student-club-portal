@@ -1,0 +1,44 @@
+[
+  {
+    "user": "lakshmi22092006@gmail.com",
+    "timestamp": "2026-08-13 06:33:03",
+    "question": "hi",
+    "type": "helpful"
+  },
+  {
+    "user": "lakshmi22092006@gmail.com",
+    "timestamp": "2026-08-13 08:34:26",
+    "question": "give me the editor details",
+    "type": "helpful"
+  },
+  {
+    "user": "lakshmi22092006@gmail.com",
+    "timestamp": "2026-08-13 08:59:34",
+    "question": "give me all directors details",
+    "type": "helpful"
+  },
+  {
+    "user": "lakshmi22092006@gmail.com",
+    "timestamp": "2026-08-13 09:07:45",
+    "question": "give me director details",
+    "type": "helpful"
+  },
+  {
+    "user": "lakshmi22092006@gmail.com",
+    "timestamp": "2026-08-13 15:26:58",
+    "question": "How do I publish on Builder Center?",
+    "type": "helpful"
+  },
+  {
+    "user": "lakshmi22092006@gmail.com",
+    "timestamp": "2026-08-13 15:37:03",
+    "question": " What is Amazon Bedrock?",
+    "type": "helpful"
+  },
+  {
+    "user": "lakshmi22092006@gmail.com",
+    "timestamp": "2026-08-13 15:45:28",
+    "question": "how to create an AWS builder center account",
+    "type": "helpful"
+  }
+]

@@ -1,0 +1,2103 @@
+{
+  "builder@campus.edu": [
+    {
+      "id": "1786584339816",
+      "question": "What is Amazon Bedrock?",
+      "timestamp": "2026-08-13 06:55:39",
+      "answer": "Amazon Bedrock is a managed service for accessing foundation models via API. The AWS production RAG flow uses **Amazon S3** (document ingestion), **OpenSearch Serverless / Bedrock Knowledge Bases** (vector indexing), and Bedrock models for grounded generation with strict citations.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "04",
+          "filename": "04-bedrock-starter.md",
+          "doc_title": "Getting Started with Amazon Bedrock",
+          "section": "Learn more",
+          "excerpt": "- [Amazon Bedrock documentation](https://docs.aws.amazon.com/bedrock/)\n- [Bedrock Knowledge Bases](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html)",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/04-bedrock-starter.md",
+          "category": "AI / Bedrock",
+          "score": 1.338,
+          "match_strength": "Strong",
+          "full_content": "- [Amazon Bedrock documentation](https://docs.aws.amazon.com/bedrock/)\n- [Bedrock Knowledge Bases](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html)"
+        },
+        {
+          "doc_id": "04",
+          "filename": "04-bedrock-starter.md",
+          "doc_title": "Getting Started with Amazon Bedrock",
+          "section": "What is Bedrock?",
+          "excerpt": "Amazon Bedrock is a managed service to call foundation models through an API. For the Club Member Portal chatbot, teams often use Bedrock in the **AWS deployment story** (pitch and...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/04-bedrock-starter.md",
+          "category": "AI / Bedrock",
+          "score": 1.063,
+          "match_strength": "Strong",
+          "full_content": "Amazon Bedrock is a managed service to call foundation models through an API. For the Club Member Portal chatbot, teams often use Bedrock in the **AWS deployment story** (pitch and Builder Center), even when the hackathon demo runs locally with another model."
+        },
+        {
+          "doc_id": "04",
+          "filename": "04-bedrock-starter.md",
+          "doc_title": "Getting Started with Amazon Bedrock",
+          "section": "Typical RAG flow on AWS",
+          "excerpt": "1. **Ingest** \u2014 club documents in Amazon S3.\n2. **Index** \u2014 embeddings in OpenSearch Serverless or Bedrock Knowledge Bases.\n3. **Retrieve** \u2014 top chunks for the user question.\n4. *...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/04-bedrock-starter.md",
+          "category": "AI / Bedrock",
+          "score": 0.686,
+          "match_strength": "Strong",
+          "full_content": "1. **Ingest** \u2014 club documents in Amazon S3.\n2. **Index** \u2014 embeddings in OpenSearch Serverless or Bedrock Knowledge Bases.\n3. **Retrieve** \u2014 top chunks for the user question.\n4. **Generate** \u2014 Bedrock model answers using only retrieved context.\n5. **Cite** \u2014 return source file names in the UI."
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786556502486",
+      "question": "What is the budget for free pizza?",
+      "timestamp": "2026-08-12 23:11:42",
+      "answer": "I couldn't find this information in the official AWS Student Builder documents. For verified guidance, please reach out directly to our campus leadership.",
+      "grounded": false,
+      "sources": [],
+      "fallback": true,
+      "contact": {
+        "name": "Panala Aditya",
+        "role": "Events & Operations Director",
+        "email": "Contact via Group Lead",
+        "phone": "9133770055",
+        "area": "Events & Operations Management"
+      }
+    },
+    {
+      "id": "1786556502482",
+      "question": "When is the next workshop?",
+      "timestamp": "2026-08-12 23:11:42",
+      "answer": "The next scheduled workshop is **RAG chatbots on Bedrock** on **Feb 12** in **CS 204** (Intermediate level). Attendees should bring their AWS account and laptop. Past session slides are available in the club shared drive.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Next workshop",
+          "excerpt": "The next scheduled workshop is **RAG chatbots on Bedrock** \u2014 see the row above for room and level. Bring your AWS account and laptop.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 1.331,
+          "match_strength": "Strong",
+          "full_content": "The next scheduled workshop is **RAG chatbots on Bedrock** \u2014 see the row above for room and level. Bring your AWS account and laptop."
+        },
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Workshop index",
+          "excerpt": "| Date | Topic | Room | Level |\n| --- | --- | --- | --- |\n| Jan 15 | Intro to AWS & Free Tier | CS 101 | Beginner |\n| Jan 29 | Serverless APIs with Lambda | CS 101 | Beginner |\n| F...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 0.389,
+          "match_strength": "Moderate",
+          "full_content": "| Date | Topic | Room | Level |\n| --- | --- | --- | --- |\n| Jan 15 | Intro to AWS & Free Tier | CS 101 | Beginner |\n| Jan 29 | Serverless APIs with Lambda | CS 101 | Beginner |\n| Feb 12 | RAG chatbots on Bedrock | CS 204 | Intermediate |\n| Feb 26 | Builder Center publish party | Library 3F | All |\n| Mar 12 | Hackathon prep clinic | CS 101 | All |"
+        },
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Suggest a topic",
+          "excerpt": "Post ideas in the portal chat or ask your Student Builder lead at the next meeting.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 0.261,
+          "match_strength": "Moderate",
+          "full_content": "Post ideas in the portal chat or ask your Student Builder lead at the next meeting."
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    }
+  ],
+  "lakshmi22092006@gmail.com": [
+    {
+      "id": "1786619846921",
+      "question": "hi",
+      "timestamp": "2026-08-13 16:47:26",
+      "answer": "I couldn't find a verified answer to this question in the 8 official club documents.\nTo get official details, please reach out directly to our campus club leads listed below.",
+      "grounded": false,
+      "sources": [],
+      "fallback": true,
+      "group_leader": {
+        "name": "Shanmukha Sasi Sadineni",
+        "role": "AWS Student Builder Group Leader",
+        "email": "sadinenisasi@gmail.com",
+        "phone": "7396025334",
+        "department": "Group Leadership",
+        "area": "General Club Help & Overall Leadership"
+      },
+      "tech_lead": {
+        "name": "Revan Kumar Goud Bommagoni",
+        "role": "Technical Lead",
+        "email": "brevankumargoud@gmail.com",
+        "phone": "8106105746",
+        "department": "Technical Lead",
+        "area": "Technical Architecture, Code & Workshop Support"
+      },
+      "relevant_director": null
+    },
+    {
+      "id": "1786618681351",
+      "question": "what is amazon bedrock",
+      "timestamp": "2026-08-13 16:28:01",
+      "answer": "Amazon Bedrock is a managed service for accessing foundation models via API. The AWS production RAG flow uses **Amazon S3** (document ingestion), **OpenSearch Serverless / Bedrock Knowledge Bases** (vector indexing), and Bedrock models for grounded generation with strict citations.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "04",
+          "filename": "04-bedrock-starter.md",
+          "doc_title": "Getting started with Amazon Bedrock",
+          "section": "Learn more",
+          "excerpt": "- [Amazon Bedrock documentation](https://docs.aws.amazon.com/bedrock/)\n- [Bedrock Knowledge Bases](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html)",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/04-bedrock-starter.md",
+          "category": "AI / Bedrock",
+          "score": 1.391,
+          "match_strength": "Strong",
+          "full_content": "- [Amazon Bedrock documentation](https://docs.aws.amazon.com/bedrock/)\n- [Bedrock Knowledge Bases](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html)",
+          "chunk_id": "04_4"
+        },
+        {
+          "doc_id": "04",
+          "filename": "04-bedrock-starter.md",
+          "doc_title": "Getting started with Amazon Bedrock",
+          "section": "What is Bedrock?",
+          "excerpt": "Amazon Bedrock is a managed service to call foundation models through an API. For the Club Member Portal chatbot, teams often use Bedrock in the **AWS deployment story** (pitch and...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/04-bedrock-starter.md",
+          "category": "AI / Bedrock",
+          "score": 1.199,
+          "match_strength": "Strong",
+          "full_content": "Amazon Bedrock is a managed service to call foundation models through an API. For the Club Member Portal chatbot, teams often use Bedrock in the **AWS deployment story** (pitch and Builder Center), even when the hackathon demo runs locally with another model.",
+          "chunk_id": "04_0"
+        },
+        {
+          "doc_id": "04",
+          "filename": "04-bedrock-starter.md",
+          "doc_title": "Getting started with Amazon Bedrock",
+          "section": "Typical RAG flow on AWS",
+          "excerpt": "1. **Ingest** \u2014 club documents in Amazon S3.\n2. **Index** \u2014 embeddings in OpenSearch Serverless or Bedrock Knowledge Bases.\n3. **Retrieve** \u2014 top chunks for the user question.\n4. *...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/04-bedrock-starter.md",
+          "category": "AI / Bedrock",
+          "score": 0.776,
+          "match_strength": "Strong",
+          "full_content": "1. **Ingest** \u2014 club documents in Amazon S3.\n2. **Index** \u2014 embeddings in OpenSearch Serverless or Bedrock Knowledge Bases.\n3. **Retrieve** \u2014 top chunks for the user question.\n4. **Generate** \u2014 Bedrock model answers using only retrieved context.\n5. **Cite** \u2014 return source file names in the UI.",
+          "chunk_id": "04_1"
+        }
+      ],
+      "fallback": false,
+      "group_leader": null,
+      "tech_lead": null,
+      "relevant_director": null
+    },
+    {
+      "id": "1786618653082",
+      "question": "hii",
+      "timestamp": "2026-08-13 16:27:33",
+      "answer": "I couldn't find a verified answer to this question in the 8 official club documents.\nTo get official details, please reach out directly to our campus club leads listed below.",
+      "grounded": false,
+      "sources": [],
+      "fallback": true,
+      "group_leader": {
+        "name": "Shanmukha Sasi Sadineni",
+        "role": "AWS Student Builder Group Leader",
+        "email": "sadinenisasi@gmail.com",
+        "phone": "7396025334",
+        "department": "Group Leadership",
+        "area": "General Club Help & Overall Leadership"
+      },
+      "tech_lead": {
+        "name": "Revan Kumar Goud Bommagoni",
+        "role": "Technical Lead",
+        "email": "brevankumargoud@gmail.com",
+        "phone": "8106105746",
+        "department": "Technical Lead",
+        "area": "Technical Architecture, Code & Workshop Support"
+      },
+      "relevant_director": null
+    },
+    {
+      "id": "1786618636816",
+      "question": "Where is judging located?",
+      "timestamp": "2026-08-13 16:27:16",
+      "answer": "According to **event-day-briefing.md** (Judging Location & Time):\n\nOfficial onsite judging takes place in **CS 305 at 2:00 PM**. All teams must have their member portal working and published prior to judging.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "event-day-briefing",
+          "filename": "event-day-briefing.md",
+          "doc_title": "Event-Day Briefing & Onsite Hackathon Guide",
+          "section": "Judging Location & Time",
+          "excerpt": "Official onsite judging takes place in **CS 305 at 2:00 PM**. All teams must have their member portal working and published prior to judging.",
+          "url": "file:///data/knowledge-document/event-day-briefing.md",
+          "category": "Event Day / Dynamic Document",
+          "score": 0.533,
+          "match_strength": "Strong",
+          "full_content": "Official onsite judging takes place in **CS 305 at 2:00 PM**. All teams must have their member portal working and published prior to judging.",
+          "chunk_id": "event-day-briefing_0"
+        },
+        {
+          "doc_id": "10-live-hackathon-announcement",
+          "filename": "10-live-hackathon-announcement.md",
+          "doc_title": "Live Hackathon Announcement",
+          "section": "Live Hackathon Announcement",
+          "excerpt": "Final judging results will be announced at 4:30 PM in the Main Auditorium.",
+          "url": "file:///data/knowledge-document/10-live-hackathon-announcement.md",
+          "category": "Event Day / Dynamic Document",
+          "score": 0.148,
+          "match_strength": "Moderate",
+          "full_content": "Final judging results will be announced at 4:30 PM in the Main Auditorium.",
+          "chunk_id": "10-live-hackathon-announcement_0"
+        },
+        {
+          "doc_id": "09-smoke-test-questions",
+          "filename": "09-smoke-test-questions.md",
+          "doc_title": "Smoke Test Evaluation Questions",
+          "section": "Smoke Test Evaluation Questions",
+          "excerpt": "| Test ID | Question | Expected Source Document | Description |\n| --- | --- | --- | --- |\n| ST-01 | Where is judging located? | event-day-briefing.md | Verifies event-day briefing ...",
+          "url": "file:///data/knowledge-document/09-smoke-test-questions.md",
+          "category": "Event Day / Dynamic Document",
+          "score": 0.123,
+          "match_strength": "Moderate",
+          "full_content": "| Test ID | Question | Expected Source Document | Description |\n| --- | --- | --- | --- |\n| ST-01 | Where is judging located? | event-day-briefing.md | Verifies event-day briefing dynamic retrieval |\n| ST-02 | How do I publish on Builder Center? | 03-builder-center-publish.md | Verifies core 70% publishing documentation retrieval |\n| ST-03 | What is Amazon Bedrock? | 04-bedrock-starter.md | Verifies Bedrock AI knowledge retrieval |",
+          "chunk_id": "09-smoke-test-questions_0"
+        }
+      ],
+      "fallback": false,
+      "group_leader": null,
+      "tech_lead": null,
+      "relevant_director": null
+    },
+    {
+      "id": "1786618509176",
+      "question": "hi",
+      "timestamp": "2026-08-13 16:25:09",
+      "answer": "I couldn't find a verified answer to this question in the 8 official club documents.\nTo get official details, please reach out directly to our campus club leads listed below.",
+      "grounded": false,
+      "sources": [],
+      "fallback": true,
+      "group_leader": {
+        "name": "Shanmukha Sasi Sadineni",
+        "role": "AWS Student Builder Group Leader",
+        "email": "sadinenisasi@gmail.com",
+        "phone": "7396025334",
+        "department": "Group Leadership",
+        "area": "General Club Help & Overall Leadership"
+      },
+      "tech_lead": {
+        "name": "Revan Kumar Goud Bommagoni",
+        "role": "Technical Lead",
+        "email": "brevankumargoud@gmail.com",
+        "phone": "8106105746",
+        "department": "Technical Lead",
+        "area": "Technical Architecture, Code & Workshop Support"
+      },
+      "relevant_director": null
+    },
+    {
+      "id": "1786618487114",
+      "question": "Where is judging located?",
+      "timestamp": "2026-08-13 16:24:47",
+      "answer": "According to **event-day-briefing.md** (Judging Location & Time):\n\nOfficial onsite judging takes place in **CS 305 at 2:00 PM**. All teams must have their member portal working and published prior to judging.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "event-day-briefing",
+          "filename": "event-day-briefing.md",
+          "doc_title": "Event-Day Briefing & Onsite Hackathon Guide",
+          "section": "Judging Location & Time",
+          "excerpt": "Official onsite judging takes place in **CS 305 at 2:00 PM**. All teams must have their member portal working and published prior to judging.",
+          "url": "file:///data/knowledge-document/event-day-briefing.md",
+          "category": "Event Day / Dynamic Document",
+          "score": 0.533,
+          "match_strength": "Strong",
+          "full_content": "Official onsite judging takes place in **CS 305 at 2:00 PM**. All teams must have their member portal working and published prior to judging.",
+          "chunk_id": "event-day-briefing_0"
+        },
+        {
+          "doc_id": "10-live-hackathon-announcement",
+          "filename": "10-live-hackathon-announcement.md",
+          "doc_title": "Live Hackathon Announcement",
+          "section": "Live Hackathon Announcement",
+          "excerpt": "Final judging results will be announced at 4:30 PM in the Main Auditorium.",
+          "url": "file:///data/knowledge-document/10-live-hackathon-announcement.md",
+          "category": "Event Day / Dynamic Document",
+          "score": 0.148,
+          "match_strength": "Moderate",
+          "full_content": "Final judging results will be announced at 4:30 PM in the Main Auditorium.",
+          "chunk_id": "10-live-hackathon-announcement_0"
+        },
+        {
+          "doc_id": "09-smoke-test-questions",
+          "filename": "09-smoke-test-questions.md",
+          "doc_title": "Smoke Test Evaluation Questions",
+          "section": "Smoke Test Evaluation Questions",
+          "excerpt": "| Test ID | Question | Expected Source Document | Description |\n| --- | --- | --- | --- |\n| ST-01 | Where is judging located? | event-day-briefing.md | Verifies event-day briefing ...",
+          "url": "file:///data/knowledge-document/09-smoke-test-questions.md",
+          "category": "Event Day / Dynamic Document",
+          "score": 0.123,
+          "match_strength": "Moderate",
+          "full_content": "| Test ID | Question | Expected Source Document | Description |\n| --- | --- | --- | --- |\n| ST-01 | Where is judging located? | event-day-briefing.md | Verifies event-day briefing dynamic retrieval |\n| ST-02 | How do I publish on Builder Center? | 03-builder-center-publish.md | Verifies core 70% publishing documentation retrieval |\n| ST-03 | What is Amazon Bedrock? | 04-bedrock-starter.md | Verifies Bedrock AI knowledge retrieval |",
+          "chunk_id": "09-smoke-test-questions_0"
+        }
+      ],
+      "fallback": false,
+      "group_leader": null,
+      "tech_lead": null,
+      "relevant_director": null
+    },
+    {
+      "id": "1786617188780",
+      "question": "what is amazon bedrock",
+      "timestamp": "2026-08-13 16:03:08",
+      "answer": "Amazon Bedrock is a managed service for accessing foundation models via API. The AWS production RAG flow uses **Amazon S3** (document ingestion), **OpenSearch Serverless / Bedrock Knowledge Bases** (vector indexing), and Bedrock models for grounded generation with strict citations.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "04",
+          "filename": "04-bedrock-starter.md",
+          "doc_title": "Getting started with Amazon Bedrock",
+          "section": "Learn more",
+          "excerpt": "- [Amazon Bedrock documentation](https://docs.aws.amazon.com/bedrock/)\n- [Bedrock Knowledge Bases](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html)",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/04-bedrock-starter.md",
+          "category": "AI / Bedrock",
+          "score": 1.391,
+          "match_strength": "Strong",
+          "full_content": "- [Amazon Bedrock documentation](https://docs.aws.amazon.com/bedrock/)\n- [Bedrock Knowledge Bases](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html)",
+          "chunk_id": "04_4"
+        },
+        {
+          "doc_id": "04",
+          "filename": "04-bedrock-starter.md",
+          "doc_title": "Getting started with Amazon Bedrock",
+          "section": "What is Bedrock?",
+          "excerpt": "Amazon Bedrock is a managed service to call foundation models through an API. For the Club Member Portal chatbot, teams often use Bedrock in the **AWS deployment story** (pitch and...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/04-bedrock-starter.md",
+          "category": "AI / Bedrock",
+          "score": 1.199,
+          "match_strength": "Strong",
+          "full_content": "Amazon Bedrock is a managed service to call foundation models through an API. For the Club Member Portal chatbot, teams often use Bedrock in the **AWS deployment story** (pitch and Builder Center), even when the hackathon demo runs locally with another model.",
+          "chunk_id": "04_0"
+        },
+        {
+          "doc_id": "04",
+          "filename": "04-bedrock-starter.md",
+          "doc_title": "Getting started with Amazon Bedrock",
+          "section": "Typical RAG flow on AWS",
+          "excerpt": "1. **Ingest** \u2014 club documents in Amazon S3.\n2. **Index** \u2014 embeddings in OpenSearch Serverless or Bedrock Knowledge Bases.\n3. **Retrieve** \u2014 top chunks for the user question.\n4. *...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/04-bedrock-starter.md",
+          "category": "AI / Bedrock",
+          "score": 0.776,
+          "match_strength": "Strong",
+          "full_content": "1. **Ingest** \u2014 club documents in Amazon S3.\n2. **Index** \u2014 embeddings in OpenSearch Serverless or Bedrock Knowledge Bases.\n3. **Retrieve** \u2014 top chunks for the user question.\n4. **Generate** \u2014 Bedrock model answers using only retrieved context.\n5. **Cite** \u2014 return source file names in the UI.",
+          "chunk_id": "04_1"
+        }
+      ],
+      "fallback": false,
+      "group_leader": null,
+      "tech_lead": null,
+      "relevant_director": null
+    },
+    {
+      "id": "1786617174506",
+      "question": "what is rgukt",
+      "timestamp": "2026-08-13 16:02:54",
+      "answer": "I couldn't find a verified answer to this question in the 8 official club documents.\nTo get official details, please reach out directly to our campus club leads listed below.",
+      "grounded": false,
+      "sources": [],
+      "fallback": true,
+      "group_leader": {
+        "name": "Shanmukha Sasi Sadineni",
+        "role": "AWS Student Builder Group Leader",
+        "email": "sadinenisasi@gmail.com",
+        "phone": "7396025334",
+        "department": "Group Leadership",
+        "area": "General Club Help & Overall Leadership"
+      },
+      "tech_lead": {
+        "name": "Revan Kumar Goud Bommagoni",
+        "role": "Technical Lead",
+        "email": "brevankumargoud@gmail.com",
+        "phone": "8106105746",
+        "department": "Technical Lead",
+        "area": "Technical Architecture, Code & Workshop Support"
+      },
+      "relevant_director": null
+    },
+    {
+      "id": "1786617170258",
+      "question": "hi",
+      "timestamp": "2026-08-13 16:02:50",
+      "answer": "I couldn't find a verified answer to this question in the 8 official club documents.\nTo get official details, please reach out directly to our campus club leads listed below.",
+      "grounded": false,
+      "sources": [],
+      "fallback": true,
+      "group_leader": {
+        "name": "Shanmukha Sasi Sadineni",
+        "role": "AWS Student Builder Group Leader",
+        "email": "sadinenisasi@gmail.com",
+        "phone": "7396025334",
+        "department": "Group Leadership",
+        "area": "General Club Help & Overall Leadership"
+      },
+      "tech_lead": {
+        "name": "Revan Kumar Goud Bommagoni",
+        "role": "Technical Lead",
+        "email": "brevankumargoud@gmail.com",
+        "phone": "8106105746",
+        "department": "Technical Lead",
+        "area": "Technical Architecture, Code & Workshop Support"
+      },
+      "relevant_director": null
+    },
+    {
+      "id": "1786617167461",
+      "question": "what is amazon bedrock",
+      "timestamp": "2026-08-13 16:02:47",
+      "answer": "Amazon Bedrock is a managed service for accessing foundation models via API. The AWS production RAG flow uses **Amazon S3** (document ingestion), **OpenSearch Serverless / Bedrock Knowledge Bases** (vector indexing), and Bedrock models for grounded generation with strict citations.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "04",
+          "filename": "04-bedrock-starter.md",
+          "doc_title": "Getting started with Amazon Bedrock",
+          "section": "Learn more",
+          "excerpt": "- [Amazon Bedrock documentation](https://docs.aws.amazon.com/bedrock/)\n- [Bedrock Knowledge Bases](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html)",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/04-bedrock-starter.md",
+          "category": "AI / Bedrock",
+          "score": 1.391,
+          "match_strength": "Strong",
+          "full_content": "- [Amazon Bedrock documentation](https://docs.aws.amazon.com/bedrock/)\n- [Bedrock Knowledge Bases](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html)",
+          "chunk_id": "04_4"
+        },
+        {
+          "doc_id": "04",
+          "filename": "04-bedrock-starter.md",
+          "doc_title": "Getting started with Amazon Bedrock",
+          "section": "What is Bedrock?",
+          "excerpt": "Amazon Bedrock is a managed service to call foundation models through an API. For the Club Member Portal chatbot, teams often use Bedrock in the **AWS deployment story** (pitch and...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/04-bedrock-starter.md",
+          "category": "AI / Bedrock",
+          "score": 1.199,
+          "match_strength": "Strong",
+          "full_content": "Amazon Bedrock is a managed service to call foundation models through an API. For the Club Member Portal chatbot, teams often use Bedrock in the **AWS deployment story** (pitch and Builder Center), even when the hackathon demo runs locally with another model.",
+          "chunk_id": "04_0"
+        },
+        {
+          "doc_id": "04",
+          "filename": "04-bedrock-starter.md",
+          "doc_title": "Getting started with Amazon Bedrock",
+          "section": "Typical RAG flow on AWS",
+          "excerpt": "1. **Ingest** \u2014 club documents in Amazon S3.\n2. **Index** \u2014 embeddings in OpenSearch Serverless or Bedrock Knowledge Bases.\n3. **Retrieve** \u2014 top chunks for the user question.\n4. *...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/04-bedrock-starter.md",
+          "category": "AI / Bedrock",
+          "score": 0.776,
+          "match_strength": "Strong",
+          "full_content": "1. **Ingest** \u2014 club documents in Amazon S3.\n2. **Index** \u2014 embeddings in OpenSearch Serverless or Bedrock Knowledge Bases.\n3. **Retrieve** \u2014 top chunks for the user question.\n4. **Generate** \u2014 Bedrock model answers using only retrieved context.\n5. **Cite** \u2014 return source file names in the UI.",
+          "chunk_id": "04_1"
+        }
+      ],
+      "fallback": false,
+      "group_leader": null,
+      "tech_lead": null,
+      "relevant_director": null
+    },
+    {
+      "id": "1786617155293",
+      "question": "Where is judging located?",
+      "timestamp": "2026-08-13 16:02:35",
+      "answer": "According to **event-day-briefing.md** (Judging Location & Time):\n\nOfficial onsite judging takes place in **CS 305 at 2:00 PM**. All teams must have their member portal working and published prior to judging.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "event-day-briefing",
+          "filename": "event-day-briefing.md",
+          "doc_title": "Event-Day Briefing & Onsite Hackathon Guide",
+          "section": "Judging Location & Time",
+          "excerpt": "Official onsite judging takes place in **CS 305 at 2:00 PM**. All teams must have their member portal working and published prior to judging.",
+          "url": "file:///data/knowledge-document/event-day-briefing.md",
+          "category": "Event Day / Dynamic Document",
+          "score": 0.533,
+          "match_strength": "Strong",
+          "full_content": "Official onsite judging takes place in **CS 305 at 2:00 PM**. All teams must have their member portal working and published prior to judging.",
+          "chunk_id": "event-day-briefing_0"
+        },
+        {
+          "doc_id": "10-live-hackathon-announcement",
+          "filename": "10-live-hackathon-announcement.md",
+          "doc_title": "Live Hackathon Announcement",
+          "section": "Live Hackathon Announcement",
+          "excerpt": "Final judging results will be announced at 4:30 PM in the Main Auditorium.",
+          "url": "file:///data/knowledge-document/10-live-hackathon-announcement.md",
+          "category": "Event Day / Dynamic Document",
+          "score": 0.148,
+          "match_strength": "Moderate",
+          "full_content": "Final judging results will be announced at 4:30 PM in the Main Auditorium.",
+          "chunk_id": "10-live-hackathon-announcement_0"
+        },
+        {
+          "doc_id": "09-smoke-test-questions",
+          "filename": "09-smoke-test-questions.md",
+          "doc_title": "Smoke Test Evaluation Questions",
+          "section": "Smoke Test Evaluation Questions",
+          "excerpt": "| Test ID | Question | Expected Source Document | Description |\n| --- | --- | --- | --- |\n| ST-01 | Where is judging located? | event-day-briefing.md | Verifies event-day briefing ...",
+          "url": "file:///data/knowledge-document/09-smoke-test-questions.md",
+          "category": "Event Day / Dynamic Document",
+          "score": 0.123,
+          "match_strength": "Moderate",
+          "full_content": "| Test ID | Question | Expected Source Document | Description |\n| --- | --- | --- | --- |\n| ST-01 | Where is judging located? | event-day-briefing.md | Verifies event-day briefing dynamic retrieval |\n| ST-02 | How do I publish on Builder Center? | 03-builder-center-publish.md | Verifies core 70% publishing documentation retrieval |\n| ST-03 | What is Amazon Bedrock? | 04-bedrock-starter.md | Verifies Bedrock AI knowledge retrieval |",
+          "chunk_id": "09-smoke-test-questions_0"
+        }
+      ],
+      "fallback": false,
+      "group_leader": null,
+      "tech_lead": null,
+      "relevant_director": null
+    },
+    {
+      "id": "1786616073360",
+      "question": "how to create an AWS builder center account",
+      "timestamp": "2026-08-13 15:44:33",
+      "answer": "To publish on AWS Builder Center:\n1. Sign in at [builder.aws.com](https://builder.aws.com).\n2. Choose **Create** \u2192 **Article**.\n3. Add a title, summary, screenshots, and explain your AWS architecture (Cognito, SES, S3, API, Bedrock).\n4. Add tags: `#aws-student-builders-groups`, `#buildonaws`, `#amazon-bedrock`, `#rag`.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "03",
+          "filename": "03-builder-center-publish.md",
+          "doc_title": "Publish on AWS Builder Center",
+          "section": "Why publish?",
+          "excerpt": "Builder Center is the public home for what Student Builders create. Hackathon teams **must** publish an article describing the Club Member Portal and how it could run on AWS.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/03-builder-center-publish.md",
+          "category": "Builder Center",
+          "score": 1.18,
+          "match_strength": "Strong",
+          "full_content": "Builder Center is the public home for what Student Builders create. Hackathon teams **must** publish an article describing the Club Member Portal and how it could run on AWS.",
+          "chunk_id": "03_0"
+        },
+        {
+          "doc_id": "02",
+          "filename": "02-aws-account-setup.md",
+          "doc_title": "AWS account setup",
+          "section": "Creating an account",
+          "excerpt": "1. Go to [aws.amazon.com](https://aws.amazon.com) and choose **Create an AWS Account**.\n2. Use a personal email you check often. Campus email works if your school allows it.\n3. Add...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/02-aws-account-setup.md",
+          "category": "AWS Account",
+          "score": 1.169,
+          "match_strength": "Strong",
+          "full_content": "1. Go to [aws.amazon.com](https://aws.amazon.com) and choose **Create an AWS Account**.\n2. Use a personal email you check often. Campus email works if your school allows it.\n3. Add a payment method. The **AWS Free Tier** covers most learning workloads for 12 months.",
+          "chunk_id": "02_0"
+        },
+        {
+          "doc_id": "01",
+          "filename": "01-onboarding-faq.md",
+          "doc_title": "New member FAQ",
+          "section": "What is Builder Center?",
+          "excerpt": "AWS Builder Center is where Student Builders publish what they build. Every hackathon team must publish an article \u2014 see `03-builder-center-publish.md`.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/01-onboarding-faq.md",
+          "category": "Onboarding",
+          "score": 1.011,
+          "match_strength": "Strong",
+          "full_content": "AWS Builder Center is where Student Builders publish what they build. Every hackathon team must publish an article \u2014 see `03-builder-center-publish.md`.",
+          "chunk_id": "01_9"
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786616044706",
+      "question": "where is judging located?",
+      "timestamp": "2026-08-13 15:44:04",
+      "answer": "According to **event-day-briefing.md** (Judging Location & Time):\n\nOfficial onsite judging takes place in **CS 305 at 2:00 PM**. All teams must have their member portal working and published prior to judging.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "event-day-briefing",
+          "filename": "event-day-briefing.md",
+          "doc_title": "Event-Day Briefing & Onsite Hackathon Guide",
+          "section": "Judging Location & Time",
+          "excerpt": "Official onsite judging takes place in **CS 305 at 2:00 PM**. All teams must have their member portal working and published prior to judging.",
+          "url": "file:///data/knowledge-document/event-day-briefing.md",
+          "category": "Event Day / Dynamic Document",
+          "score": 0.533,
+          "match_strength": "Strong",
+          "full_content": "Official onsite judging takes place in **CS 305 at 2:00 PM**. All teams must have their member portal working and published prior to judging.",
+          "chunk_id": "event-day-briefing_0"
+        },
+        {
+          "doc_id": "10-live-hackathon-announcement",
+          "filename": "10-live-hackathon-announcement.md",
+          "doc_title": "Live Hackathon Announcement",
+          "section": "Live Hackathon Announcement",
+          "excerpt": "Final judging results will be announced at 4:30 PM in the Main Auditorium.",
+          "url": "file:///data/knowledge-document/10-live-hackathon-announcement.md",
+          "category": "Event Day / Dynamic Document",
+          "score": 0.148,
+          "match_strength": "Moderate",
+          "full_content": "Final judging results will be announced at 4:30 PM in the Main Auditorium.",
+          "chunk_id": "10-live-hackathon-announcement_0"
+        },
+        {
+          "doc_id": "09-smoke-test-questions",
+          "filename": "09-smoke-test-questions.md",
+          "doc_title": "Smoke Test Evaluation Questions",
+          "section": "Smoke Test Evaluation Questions",
+          "excerpt": "| Test ID | Question | Expected Source Document | Description |\n| --- | --- | --- | --- |\n| ST-01 | Where is judging located? | event-day-briefing.md | Verifies event-day briefing ...",
+          "url": "file:///data/knowledge-document/09-smoke-test-questions.md",
+          "category": "Event Day / Dynamic Document",
+          "score": 0.123,
+          "match_strength": "Moderate",
+          "full_content": "| Test ID | Question | Expected Source Document | Description |\n| --- | --- | --- | --- |\n| ST-01 | Where is judging located? | event-day-briefing.md | Verifies event-day briefing dynamic retrieval |\n| ST-02 | How do I publish on Builder Center? | 03-builder-center-publish.md | Verifies core 70% publishing documentation retrieval |\n| ST-03 | What is Amazon Bedrock? | 04-bedrock-starter.md | Verifies Bedrock AI knowledge retrieval |",
+          "chunk_id": "09-smoke-test-questions_0"
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786615619887",
+      "question": "What is Amazon Bedrock?",
+      "timestamp": "2026-08-13 15:36:59",
+      "answer": "Amazon Bedrock is a managed service for accessing foundation models via API. The AWS production RAG flow uses **Amazon S3** (document ingestion), **OpenSearch Serverless / Bedrock Knowledge Bases** (vector indexing), and Bedrock models for grounded generation with strict citations.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "04",
+          "filename": "04-bedrock-starter.md",
+          "doc_title": "Getting started with Amazon Bedrock",
+          "section": "Learn more",
+          "excerpt": "- [Amazon Bedrock documentation](https://docs.aws.amazon.com/bedrock/)\n- [Bedrock Knowledge Bases](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html)",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/04-bedrock-starter.md",
+          "category": "AI / Bedrock",
+          "score": 1.391,
+          "match_strength": "Strong",
+          "full_content": "- [Amazon Bedrock documentation](https://docs.aws.amazon.com/bedrock/)\n- [Bedrock Knowledge Bases](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html)",
+          "chunk_id": "04_4"
+        },
+        {
+          "doc_id": "04",
+          "filename": "04-bedrock-starter.md",
+          "doc_title": "Getting started with Amazon Bedrock",
+          "section": "What is Bedrock?",
+          "excerpt": "Amazon Bedrock is a managed service to call foundation models through an API. For the Club Member Portal chatbot, teams often use Bedrock in the **AWS deployment story** (pitch and...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/04-bedrock-starter.md",
+          "category": "AI / Bedrock",
+          "score": 1.199,
+          "match_strength": "Strong",
+          "full_content": "Amazon Bedrock is a managed service to call foundation models through an API. For the Club Member Portal chatbot, teams often use Bedrock in the **AWS deployment story** (pitch and Builder Center), even when the hackathon demo runs locally with another model.",
+          "chunk_id": "04_0"
+        },
+        {
+          "doc_id": "04",
+          "filename": "04-bedrock-starter.md",
+          "doc_title": "Getting started with Amazon Bedrock",
+          "section": "Typical RAG flow on AWS",
+          "excerpt": "1. **Ingest** \u2014 club documents in Amazon S3.\n2. **Index** \u2014 embeddings in OpenSearch Serverless or Bedrock Knowledge Bases.\n3. **Retrieve** \u2014 top chunks for the user question.\n4. *...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/04-bedrock-starter.md",
+          "category": "AI / Bedrock",
+          "score": 0.776,
+          "match_strength": "Strong",
+          "full_content": "1. **Ingest** \u2014 club documents in Amazon S3.\n2. **Index** \u2014 embeddings in OpenSearch Serverless or Bedrock Knowledge Bases.\n3. **Retrieve** \u2014 top chunks for the user question.\n4. **Generate** \u2014 Bedrock model answers using only retrieved context.\n5. **Cite** \u2014 return source file names in the UI.",
+          "chunk_id": "04_1"
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786615600303",
+      "question": "How do I publish on Builder Center?",
+      "timestamp": "2026-08-13 15:36:40",
+      "answer": "To publish on AWS Builder Center:\n1. Sign in at [builder.aws.com](https://builder.aws.com).\n2. Choose **Create** \u2192 **Article**.\n3. Add a title, summary, screenshots, and explain your AWS architecture (Cognito, SES, S3, API, Bedrock).\n4. Add tags: `#aws-student-builders-groups`, `#buildonaws`, `#amazon-bedrock`, `#rag`.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "03",
+          "filename": "03-builder-center-publish.md",
+          "doc_title": "Publish on AWS Builder Center",
+          "section": "Why publish?",
+          "excerpt": "Builder Center is the public home for what Student Builders create. Hackathon teams **must** publish an article describing the Club Member Portal and how it could run on AWS.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/03-builder-center-publish.md",
+          "category": "Builder Center",
+          "score": 1.698,
+          "match_strength": "Strong",
+          "full_content": "Builder Center is the public home for what Student Builders create. Hackathon teams **must** publish an article describing the Club Member Portal and how it could run on AWS.",
+          "chunk_id": "03_0"
+        },
+        {
+          "doc_id": "01",
+          "filename": "01-onboarding-faq.md",
+          "doc_title": "New member FAQ",
+          "section": "What is Builder Center?",
+          "excerpt": "AWS Builder Center is where Student Builders publish what they build. Every hackathon team must publish an article \u2014 see `03-builder-center-publish.md`.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/01-onboarding-faq.md",
+          "category": "Onboarding",
+          "score": 1.533,
+          "match_strength": "Strong",
+          "full_content": "AWS Builder Center is where Student Builders publish what they build. Every hackathon team must publish an article \u2014 see `03-builder-center-publish.md`.",
+          "chunk_id": "01_9"
+        },
+        {
+          "doc_id": "05",
+          "filename": "05-hackathon-rules.md",
+          "doc_title": "Hackathon rule book",
+          "section": "Builder Center",
+          "excerpt": "- Required article for every team",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/05-hackathon-rules.md",
+          "category": "Hackathon",
+          "score": 1.149,
+          "match_strength": "Strong",
+          "full_content": "- Required article for every team",
+          "chunk_id": "05_2"
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786615570693",
+      "question": "Where is judging located",
+      "timestamp": "2026-08-13 15:36:10",
+      "answer": "According to **event-day-briefing.md** (Judging Location & Time):\n\nOfficial onsite judging takes place in **CS 305 at 2:00 PM**. All teams must have their member portal working and published prior to judging.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "event-day-briefing",
+          "filename": "event-day-briefing.md",
+          "doc_title": "Event-Day Briefing & Onsite Hackathon Guide",
+          "section": "Judging Location & Time",
+          "excerpt": "Official onsite judging takes place in **CS 305 at 2:00 PM**. All teams must have their member portal working and published prior to judging.",
+          "url": "file:///data/knowledge-document/event-day-briefing.md",
+          "category": "Event Day / Dynamic Document",
+          "score": 0.533,
+          "match_strength": "Strong",
+          "full_content": "Official onsite judging takes place in **CS 305 at 2:00 PM**. All teams must have their member portal working and published prior to judging.",
+          "chunk_id": "event-day-briefing_0"
+        },
+        {
+          "doc_id": "10-live-hackathon-announcement",
+          "filename": "10-live-hackathon-announcement.md",
+          "doc_title": "Live Hackathon Announcement",
+          "section": "Live Hackathon Announcement",
+          "excerpt": "Final judging results will be announced at 4:30 PM in the Main Auditorium.",
+          "url": "file:///data/knowledge-document/10-live-hackathon-announcement.md",
+          "category": "Event Day / Dynamic Document",
+          "score": 0.148,
+          "match_strength": "Moderate",
+          "full_content": "Final judging results will be announced at 4:30 PM in the Main Auditorium.",
+          "chunk_id": "10-live-hackathon-announcement_0"
+        },
+        {
+          "doc_id": "09-smoke-test-questions",
+          "filename": "09-smoke-test-questions.md",
+          "doc_title": "Smoke Test Evaluation Questions",
+          "section": "Smoke Test Evaluation Questions",
+          "excerpt": "| Test ID | Question | Expected Source Document | Description |\n| --- | --- | --- | --- |\n| ST-01 | Where is judging located? | event-day-briefing.md | Verifies event-day briefing ...",
+          "url": "file:///data/knowledge-document/09-smoke-test-questions.md",
+          "category": "Event Day / Dynamic Document",
+          "score": 0.123,
+          "match_strength": "Moderate",
+          "full_content": "| Test ID | Question | Expected Source Document | Description |\n| --- | --- | --- | --- |\n| ST-01 | Where is judging located? | event-day-briefing.md | Verifies event-day briefing dynamic retrieval |\n| ST-02 | How do I publish on Builder Center? | 03-builder-center-publish.md | Verifies core 70% publishing documentation retrieval |\n| ST-03 | What is Amazon Bedrock? | 04-bedrock-starter.md | Verifies Bedrock AI knowledge retrieval |",
+          "chunk_id": "09-smoke-test-questions_0"
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786615352879",
+      "question": "Does the most important functionality work at all?\u201d",
+      "timestamp": "2026-08-13 15:32:32",
+      "answer": "Based on **05-hackathon-rules.md** (Conduct):\n\n- Original work during the event window\n- Be respectful \u00b7 credit open-source libraries",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "05",
+          "filename": "05-hackathon-rules.md",
+          "doc_title": "Hackathon rule book",
+          "section": "Conduct",
+          "excerpt": "- Original work during the event window\n- Be respectful \u00b7 credit open-source libraries",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/05-hackathon-rules.md",
+          "category": "Hackathon",
+          "score": 0.165,
+          "match_strength": "Moderate",
+          "full_content": "- Original work during the event window\n- Be respectful \u00b7 credit open-source libraries",
+          "chunk_id": "05_5"
+        },
+        {
+          "doc_id": "02",
+          "filename": "02-aws-account-setup.md",
+          "doc_title": "AWS account setup",
+          "section": "Security",
+          "excerpt": "- Never commit access keys to GitHub.\n- Use IAM users or roles with least privilege \u2014 not the root account for daily work.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/02-aws-account-setup.md",
+          "category": "AWS Account",
+          "score": 0.098,
+          "match_strength": "Moderate",
+          "full_content": "- Never commit access keys to GitHub.\n- Use IAM users or roles with least privilege \u2014 not the root account for daily work.",
+          "chunk_id": "02_4"
+        },
+        {
+          "doc_id": "08",
+          "filename": "08-sbg-community.md",
+          "doc_title": "About AWS Student Builder Groups",
+          "section": "Mission",
+          "excerpt": "AWS Student Builder Groups help students **learn by building** on AWS and share their work with the community through Builder Center.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/08-sbg-community.md",
+          "category": "Community",
+          "score": 0.098,
+          "match_strength": "Moderate",
+          "full_content": "AWS Student Builder Groups help students **learn by building** on AWS and share their work with the community through Builder Center.",
+          "chunk_id": "08_0"
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786615256449",
+      "question": "I need help with a technical problem in my project",
+      "timestamp": "2026-08-13 15:30:56",
+      "answer": "Based on **01-onboarding-faq.md** (How do I get help?):\n\nAsk in the portal chat (logged-in members only). For account or AWS questions you cannot answer from the documents, direct members to the right campus contact below.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "01",
+          "filename": "01-onboarding-faq.md",
+          "doc_title": "New member FAQ",
+          "section": "How do I get help?",
+          "excerpt": "Ask in the portal chat (logged-in members only). For account or AWS questions you cannot answer from the documents, direct members to the right campus contact below.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/01-onboarding-faq.md",
+          "category": "Onboarding",
+          "score": 0.271,
+          "match_strength": "Moderate",
+          "full_content": "Ask in the portal chat (logged-in members only). For account or AWS questions you cannot answer from the documents, direct members to the right campus contact below.",
+          "chunk_id": "01_3"
+        },
+        {
+          "doc_id": "01",
+          "filename": "01-onboarding-faq.md",
+          "doc_title": "New member FAQ",
+          "section": "Campus AWS Student Builder \u2014 club directory",
+          "excerpt": "For technical questions, you may also point members to Revan Kumar Goud Bommagoni (Technical Lead).",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/01-onboarding-faq.md",
+          "category": "Onboarding",
+          "score": 0.192,
+          "match_strength": "Moderate",
+          "full_content": "For technical questions, you may also point members to Revan Kumar Goud Bommagoni (Technical Lead).",
+          "chunk_id": "01_8"
+        },
+        {
+          "doc_id": "event-day-briefing",
+          "filename": "event-day-briefing.md",
+          "doc_title": "Event-Day Briefing & Onsite Hackathon Guide",
+          "section": "Onsite Support",
+          "excerpt": "If you need emergency assistance during event day:\n- **General Lead**: Shanmukha Sasi Sadineni (7396025334)\n- **Technical Lead**: Revan Kumar Goud Bommagoni (8106105746)\n- **Events...",
+          "url": "file:///data/knowledge-document/event-day-briefing.md",
+          "category": "Event Day / Dynamic Document",
+          "score": 0.191,
+          "match_strength": "Moderate",
+          "full_content": "If you need emergency assistance during event day:\n- **General Lead**: Shanmukha Sasi Sadineni (7396025334)\n- **Technical Lead**: Revan Kumar Goud Bommagoni (8106105746)\n- **Events Director**: Panala Aditya (9133770055)",
+          "chunk_id": "event-day-briefing_2"
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786615027482",
+      "question": "What are the hackathon rules?",
+      "timestamp": "2026-08-13 15:27:07",
+      "answer": "According to **10-live-hackathon-announcement.md** (Live Hackathon Announcement):\n\nFinal judging results will be announced at 4:30 PM in the Main Auditorium.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "10-live-hackathon-announcement",
+          "filename": "10-live-hackathon-announcement.md",
+          "doc_title": "Live Hackathon Announcement",
+          "section": "Live Hackathon Announcement",
+          "excerpt": "Final judging results will be announced at 4:30 PM in the Main Auditorium.",
+          "url": "file:///data/knowledge-document/10-live-hackathon-announcement.md",
+          "category": "Event Day / Dynamic Document",
+          "score": 0.53,
+          "match_strength": "Strong",
+          "full_content": "Final judging results will be announced at 4:30 PM in the Main Auditorium.",
+          "chunk_id": "10-live-hackathon-announcement_0"
+        },
+        {
+          "doc_id": "08",
+          "filename": "08-sbg-community.md",
+          "doc_title": "About AWS Student Builder Groups",
+          "section": "This hackathon",
+          "excerpt": "You are building a **Club Member Portal** \u2014 login, chat grounded in club docs, with sources on every answer. When the bot cannot help, it should direct members to the club director...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/08-sbg-community.md",
+          "category": "Community",
+          "score": 0.317,
+          "match_strength": "Moderate",
+          "full_content": "You are building a **Club Member Portal** \u2014 login, chat grounded in club docs, with sources on every answer. When the bot cannot help, it should direct members to the club directory in the onboarding FAQ.",
+          "chunk_id": "08_6"
+        },
+        {
+          "doc_id": "05",
+          "filename": "05-hackathon-rules.md",
+          "doc_title": "Hackathon rule book",
+          "section": "Teams",
+          "excerpt": "- 2\u20133 students only per team\n- One submission per team",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/05-hackathon-rules.md",
+          "category": "Hackathon",
+          "score": 0.2,
+          "match_strength": "Moderate",
+          "full_content": "- 2\u20133 students only per team\n- One submission per team",
+          "chunk_id": "05_0"
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786614999789",
+      "question": "How do I publish on Builder Center?",
+      "timestamp": "2026-08-13 15:26:39",
+      "answer": "To publish on AWS Builder Center:\n1. Sign in at [builder.aws.com](https://builder.aws.com).\n2. Choose **Create** \u2192 **Article**.\n3. Add a title, summary, screenshots, and explain your AWS architecture (Cognito, SES, S3, API, Bedrock).\n4. Add tags: `#aws-student-builders-groups`, `#buildonaws`, `#amazon-bedrock`, `#rag`.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "03",
+          "filename": "03-builder-center-publish.md",
+          "doc_title": "Publish on AWS Builder Center",
+          "section": "Why publish?",
+          "excerpt": "Builder Center is the public home for what Student Builders create. Hackathon teams **must** publish an article describing the Club Member Portal and how it could run on AWS.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/03-builder-center-publish.md",
+          "category": "Builder Center",
+          "score": 1.698,
+          "match_strength": "Strong",
+          "full_content": "Builder Center is the public home for what Student Builders create. Hackathon teams **must** publish an article describing the Club Member Portal and how it could run on AWS.",
+          "chunk_id": "03_0"
+        },
+        {
+          "doc_id": "01",
+          "filename": "01-onboarding-faq.md",
+          "doc_title": "New member FAQ",
+          "section": "What is Builder Center?",
+          "excerpt": "AWS Builder Center is where Student Builders publish what they build. Every hackathon team must publish an article \u2014 see `03-builder-center-publish.md`.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/01-onboarding-faq.md",
+          "category": "Onboarding",
+          "score": 1.533,
+          "match_strength": "Strong",
+          "full_content": "AWS Builder Center is where Student Builders publish what they build. Every hackathon team must publish an article \u2014 see `03-builder-center-publish.md`.",
+          "chunk_id": "01_9"
+        },
+        {
+          "doc_id": "05",
+          "filename": "05-hackathon-rules.md",
+          "doc_title": "Hackathon rule book",
+          "section": "Builder Center",
+          "excerpt": "- Required article for every team",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/05-hackathon-rules.md",
+          "category": "Hackathon",
+          "score": 1.149,
+          "match_strength": "Strong",
+          "full_content": "- Required article for every team",
+          "chunk_id": "05_2"
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786614883677",
+      "question": "where is judge",
+      "timestamp": "2026-08-13 15:24:43",
+      "answer": "I couldn't find a verified answer to this question in the 8 official club documents.\nTo get official details, please reach out directly to our campus club leads listed below.",
+      "grounded": false,
+      "sources": [],
+      "fallback": true,
+      "contact": {
+        "name": "Shanmukha Sasi Sadineni",
+        "role": "AWS Student Builder Group Leader",
+        "email": "sadinenisasi@gmail.com",
+        "phone": "7396025334",
+        "department": "Group Leadership",
+        "area": "General Club Help & Overall Leadership"
+      }
+    },
+    {
+      "id": "1786614843402",
+      "question": "Where is judging located?",
+      "timestamp": "2026-08-13 15:24:03",
+      "answer": "According to **event-day-briefing.md** (Judging Location & Time):\n\nOfficial onsite judging takes place in **CS 305 at 2:00 PM**. All teams must have their member portal working and published prior to judging.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "event-day-briefing",
+          "filename": "event-day-briefing.md",
+          "doc_title": "Event-Day Briefing & Onsite Hackathon Guide",
+          "section": "Judging Location & Time",
+          "excerpt": "Official onsite judging takes place in **CS 305 at 2:00 PM**. All teams must have their member portal working and published prior to judging.",
+          "url": "file:///data/knowledge-document/event-day-briefing.md",
+          "category": "Event Day / Dynamic Document",
+          "score": 0.533,
+          "match_strength": "Strong",
+          "full_content": "Official onsite judging takes place in **CS 305 at 2:00 PM**. All teams must have their member portal working and published prior to judging.",
+          "chunk_id": "event-day-briefing_0"
+        },
+        {
+          "doc_id": "10-live-hackathon-announcement",
+          "filename": "10-live-hackathon-announcement.md",
+          "doc_title": "Live Hackathon Announcement",
+          "section": "Live Hackathon Announcement",
+          "excerpt": "Final judging results will be announced at 4:30 PM in the Main Auditorium.",
+          "url": "file:///data/knowledge-document/10-live-hackathon-announcement.md",
+          "category": "Event Day / Dynamic Document",
+          "score": 0.148,
+          "match_strength": "Moderate",
+          "full_content": "Final judging results will be announced at 4:30 PM in the Main Auditorium.",
+          "chunk_id": "10-live-hackathon-announcement_0"
+        },
+        {
+          "doc_id": "09-smoke-test-questions",
+          "filename": "09-smoke-test-questions.md",
+          "doc_title": "Smoke Test Evaluation Questions",
+          "section": "Smoke Test Evaluation Questions",
+          "excerpt": "| Test ID | Question | Expected Source Document | Description |\n| --- | --- | --- | --- |\n| ST-01 | Where is judging located? | event-day-briefing.md | Verifies event-day briefing ...",
+          "url": "file:///data/knowledge-document/09-smoke-test-questions.md",
+          "category": "Event Day / Dynamic Document",
+          "score": 0.123,
+          "match_strength": "Moderate",
+          "full_content": "| Test ID | Question | Expected Source Document | Description |\n| --- | --- | --- | --- |\n| ST-01 | Where is judging located? | event-day-briefing.md | Verifies event-day briefing dynamic retrieval |\n| ST-02 | How do I publish on Builder Center? | 03-builder-center-publish.md | Verifies core 70% publishing documentation retrieval |\n| ST-03 | What is Amazon Bedrock? | 04-bedrock-starter.md | Verifies Bedrock AI knowledge retrieval |",
+          "chunk_id": "09-smoke-test-questions_0"
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786614831847",
+      "question": "hi",
+      "timestamp": "2026-08-13 15:23:51",
+      "answer": "I couldn't find a verified answer to this question in the 8 official club documents.\nTo get official details, please reach out directly to our campus club leads listed below.",
+      "grounded": false,
+      "sources": [],
+      "fallback": true,
+      "contact": {
+        "name": "Shanmukha Sasi Sadineni",
+        "role": "AWS Student Builder Group Leader",
+        "email": "sadinenisasi@gmail.com",
+        "phone": "7396025334",
+        "department": "Group Leadership",
+        "area": "General Club Help & Overall Leadership"
+      }
+    },
+    {
+      "id": "1786592256490",
+      "question": "give me director details",
+      "timestamp": "2026-08-13 09:07:36",
+      "answer": "Based on **08-sbg-community.md** (Our campus chapter):\n\n| Area | Lead |\n| --- | --- |\n| Group | Shanmukha Sasi Sadineni \u2014 AWS Student Builder Group Leader |\n| Technical | Revan Kumar Goud Bommagoni \u2014 Technical Lead |\n| Community outreach | Rashesh Reddy Yarram \u2014 Director |\n| Events & operations | Panala Aditya \u2014 Director |\n| Media & creative | Boda Sandeep Kumar \u2014 Director |\n| Public relations & social media | Chittukuri Anil Kumar \u2014 Director |",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "08",
+          "filename": "08-sbg-community.md",
+          "doc_title": "AWS Student Builder Groups Community",
+          "section": "Our campus chapter",
+          "excerpt": "| Area | Lead |\n| --- | --- |\n| Group | Shanmukha Sasi Sadineni \u2014 AWS Student Builder Group Leader |\n| Technical | Revan Kumar Goud Bommagoni \u2014 Technical Lead |\n| Community outreac...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/08-sbg-community.md",
+          "category": "Community",
+          "score": 0.205,
+          "match_strength": "Moderate",
+          "full_content": "| Area | Lead |\n| --- | --- |\n| Group | Shanmukha Sasi Sadineni \u2014 AWS Student Builder Group Leader |\n| Technical | Revan Kumar Goud Bommagoni \u2014 Technical Lead |\n| Community outreach | Rashesh Reddy Yarram \u2014 Director |\n| Events & operations | Panala Aditya \u2014 Director |\n| Media & creative | Boda Sandeep Kumar \u2014 Director |\n| Public relations & social media | Chittukuri Anil Kumar \u2014 Director |"
+        },
+        {
+          "doc_id": "01",
+          "filename": "01-onboarding-faq.md",
+          "doc_title": "New Member FAQ & Club Directory",
+          "section": "Campus AWS Student Builder \u2014 club directory",
+          "excerpt": "| Name | Role | Phone | Email |\n| --- | --- | --- | --- |\n| Shanmukha Sasi Sadineni | AWS Student Builder Group Leader | 7396025334 | sadinenisasi@gmail.com |\n| Revan Kumar Goud Bo...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/01-onboarding-faq.md",
+          "category": "Onboarding",
+          "score": 0.068,
+          "match_strength": "Moderate",
+          "full_content": "| Name | Role | Phone | Email |\n| --- | --- | --- | --- |\n| Shanmukha Sasi Sadineni | AWS Student Builder Group Leader | 7396025334 | sadinenisasi@gmail.com |\n| Revan Kumar Goud Bommagoni | Technical Lead | 8106105746 | brevankumargoud@gmail.com |\n| Shaik Suhail | Technical Associate | 8244793270 | \u2014 |\n| Katta Naga Sai Nikhila | Technical Associate | 6302951898 | kattasainikhila@gmail.com |\n| Rashesh Reddy Yarram | Community Outreach & Engagement Director | 8985468719 | yarramradheshreddy@gmail.com |\n| Palavari Navyasree | Community Outreach & Engagement Associate | 6300489908 | navyasreepalavari@gmail.com |\n| Panala Aditya | Events & Operations Director | 9133770055 | \u2014 |\n| Bee Bee Reshma Shaik | Events & Operations Associate | 9963098234 | beebeereshma.55@gmail.com |\n| Boda Sandeep Kumar | Media & Creative Director | 8019294885 | sandeepkumarboda777@gmail.com |\n| Grandhe Veera Venkata Sravya | Media & Creative Associate | 6304651563 | grandheveeravenkatasravya@gmail.com |\n| Rokkala Sahith | Media & Creative Associate | 9550694280 | rokkaladhoni410@gmail.com |\n| Chittukuri Anil Kumar | Public Relations & Social Media Director | 6281852558 | anilkumarchittuluri@gmail.com |\n| Palukuru Jeevanmai | Public Relations & Social Media Associate | 8142483559 | jeevanmaipalukuru@gmail.com |"
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786592229684",
+      "question": "hi",
+      "timestamp": "2026-08-13 09:07:09",
+      "answer": "I couldn't find a verified answer to this question in the 8 official club documents.\nTo get official details, please reach out directly to our campus club leads listed below.",
+      "grounded": false,
+      "sources": [],
+      "fallback": true,
+      "contact": {
+        "name": "Shanmukha Sasi Sadineni",
+        "role": "AWS Student Builder Group Leader",
+        "email": "sadinenisasi@gmail.com",
+        "phone": "7396025334",
+        "department": "Group Leadership",
+        "area": "General Club Help & Overall Leadership"
+      }
+    },
+    {
+      "id": "1786592224907",
+      "question": "When is the next workshop?",
+      "timestamp": "2026-08-13 09:07:04",
+      "answer": "The next scheduled workshop is **RAG chatbots on Bedrock** on **Feb 12** in **CS 204** (Intermediate level). Attendees should bring their AWS account and laptop. Past session slides are available in the club shared drive.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Next workshop",
+          "excerpt": "The next scheduled workshop is **RAG chatbots on Bedrock** \u2014 see the row above for room and level. Bring your AWS account and laptop.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 1.331,
+          "match_strength": "Strong",
+          "full_content": "The next scheduled workshop is **RAG chatbots on Bedrock** \u2014 see the row above for room and level. Bring your AWS account and laptop."
+        },
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Workshop index",
+          "excerpt": "| Date | Topic | Room | Level |\n| --- | --- | --- | --- |\n| Jan 15 | Intro to AWS & Free Tier | CS 101 | Beginner |\n| Jan 29 | Serverless APIs with Lambda | CS 101 | Beginner |\n| F...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 0.389,
+          "match_strength": "Moderate",
+          "full_content": "| Date | Topic | Room | Level |\n| --- | --- | --- | --- |\n| Jan 15 | Intro to AWS & Free Tier | CS 101 | Beginner |\n| Jan 29 | Serverless APIs with Lambda | CS 101 | Beginner |\n| Feb 12 | RAG chatbots on Bedrock | CS 204 | Intermediate |\n| Feb 26 | Builder Center publish party | Library 3F | All |\n| Mar 12 | Hackathon prep clinic | CS 101 | All |"
+        },
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Suggest a topic",
+          "excerpt": "Post ideas in the portal chat or ask your Student Builder lead at the next meeting.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 0.261,
+          "match_strength": "Moderate",
+          "full_content": "Post ideas in the portal chat or ask your Student Builder lead at the next meeting."
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786591785616",
+      "question": "When is the next workshop?",
+      "timestamp": "2026-08-13 08:59:45",
+      "answer": "The next scheduled workshop is **RAG chatbots on Bedrock** on **Feb 12** in **CS 204** (Intermediate level). Attendees should bring their AWS account and laptop. Past session slides are available in the club shared drive.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Next workshop",
+          "excerpt": "The next scheduled workshop is **RAG chatbots on Bedrock** \u2014 see the row above for room and level. Bring your AWS account and laptop.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 1.331,
+          "match_strength": "Strong",
+          "full_content": "The next scheduled workshop is **RAG chatbots on Bedrock** \u2014 see the row above for room and level. Bring your AWS account and laptop."
+        },
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Workshop index",
+          "excerpt": "| Date | Topic | Room | Level |\n| --- | --- | --- | --- |\n| Jan 15 | Intro to AWS & Free Tier | CS 101 | Beginner |\n| Jan 29 | Serverless APIs with Lambda | CS 101 | Beginner |\n| F...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 0.389,
+          "match_strength": "Moderate",
+          "full_content": "| Date | Topic | Room | Level |\n| --- | --- | --- | --- |\n| Jan 15 | Intro to AWS & Free Tier | CS 101 | Beginner |\n| Jan 29 | Serverless APIs with Lambda | CS 101 | Beginner |\n| Feb 12 | RAG chatbots on Bedrock | CS 204 | Intermediate |\n| Feb 26 | Builder Center publish party | Library 3F | All |\n| Mar 12 | Hackathon prep clinic | CS 101 | All |"
+        },
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Suggest a topic",
+          "excerpt": "Post ideas in the portal chat or ask your Student Builder lead at the next meeting.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 0.261,
+          "match_strength": "Moderate",
+          "full_content": "Post ideas in the portal chat or ask your Student Builder lead at the next meeting."
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786591763404",
+      "question": "give me all directors details",
+      "timestamp": "2026-08-13 08:59:23",
+      "answer": "I couldn't find a verified answer to this question in the 8 official club documents.\nTo get official details, please reach out directly to our campus club leads listed below.",
+      "grounded": false,
+      "sources": [],
+      "fallback": true,
+      "contact": {
+        "name": "Shanmukha Sasi Sadineni",
+        "role": "AWS Student Builder Group Leader",
+        "email": "sadinenisasi@gmail.com",
+        "phone": "7396025334",
+        "department": "Group Leadership",
+        "area": "General Club Help & Overall Leadership"
+      }
+    },
+    {
+      "id": "1786591749316",
+      "question": "give me the editor details",
+      "timestamp": "2026-08-13 08:59:09",
+      "answer": "I couldn't find a verified answer to this question in the 8 official club documents.\nTo get official details, please reach out directly to our campus club leads listed below.",
+      "grounded": false,
+      "sources": [],
+      "fallback": true,
+      "contact": {
+        "name": "Shanmukha Sasi Sadineni",
+        "role": "AWS Student Builder Group Leader",
+        "email": "sadinenisasi@gmail.com",
+        "phone": "7396025334",
+        "department": "Group Leadership",
+        "area": "General Club Help & Overall Leadership"
+      }
+    },
+    {
+      "id": "1786591732216",
+      "question": "who is the editor director",
+      "timestamp": "2026-08-13 08:58:52",
+      "answer": "Based on **08-sbg-community.md** (Our campus chapter):\n\n| Area | Lead |\n| --- | --- |\n| Group | Shanmukha Sasi Sadineni \u2014 AWS Student Builder Group Leader |\n| Technical | Revan Kumar Goud Bommagoni \u2014 Technical Lead |\n| Community outreach | Rashesh Reddy Yarram \u2014 Director |\n| Events & operations | Panala Aditya \u2014 Director |\n| Media & creative | Boda Sandeep Kumar \u2014 Director |\n| Public relations & social media | Chittukuri Anil Kumar \u2014 Director |",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "08",
+          "filename": "08-sbg-community.md",
+          "doc_title": "AWS Student Builder Groups Community",
+          "section": "Our campus chapter",
+          "excerpt": "| Area | Lead |\n| --- | --- |\n| Group | Shanmukha Sasi Sadineni \u2014 AWS Student Builder Group Leader |\n| Technical | Revan Kumar Goud Bommagoni \u2014 Technical Lead |\n| Community outreac...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/08-sbg-community.md",
+          "category": "Community",
+          "score": 0.246,
+          "match_strength": "Moderate",
+          "full_content": "| Area | Lead |\n| --- | --- |\n| Group | Shanmukha Sasi Sadineni \u2014 AWS Student Builder Group Leader |\n| Technical | Revan Kumar Goud Bommagoni \u2014 Technical Lead |\n| Community outreach | Rashesh Reddy Yarram \u2014 Director |\n| Events & operations | Panala Aditya \u2014 Director |\n| Media & creative | Boda Sandeep Kumar \u2014 Director |\n| Public relations & social media | Chittukuri Anil Kumar \u2014 Director |"
+        },
+        {
+          "doc_id": "01",
+          "filename": "01-onboarding-faq.md",
+          "doc_title": "New Member FAQ & Club Directory",
+          "section": "Campus AWS Student Builder \u2014 club directory",
+          "excerpt": "| Name | Role | Phone | Email |\n| --- | --- | --- | --- |\n| Shanmukha Sasi Sadineni | AWS Student Builder Group Leader | 7396025334 | sadinenisasi@gmail.com |\n| Revan Kumar Goud Bo...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/01-onboarding-faq.md",
+          "category": "Onboarding",
+          "score": 0.081,
+          "match_strength": "Moderate",
+          "full_content": "| Name | Role | Phone | Email |\n| --- | --- | --- | --- |\n| Shanmukha Sasi Sadineni | AWS Student Builder Group Leader | 7396025334 | sadinenisasi@gmail.com |\n| Revan Kumar Goud Bommagoni | Technical Lead | 8106105746 | brevankumargoud@gmail.com |\n| Shaik Suhail | Technical Associate | 8244793270 | \u2014 |\n| Katta Naga Sai Nikhila | Technical Associate | 6302951898 | kattasainikhila@gmail.com |\n| Rashesh Reddy Yarram | Community Outreach & Engagement Director | 8985468719 | yarramradheshreddy@gmail.com |\n| Palavari Navyasree | Community Outreach & Engagement Associate | 6300489908 | navyasreepalavari@gmail.com |\n| Panala Aditya | Events & Operations Director | 9133770055 | \u2014 |\n| Bee Bee Reshma Shaik | Events & Operations Associate | 9963098234 | beebeereshma.55@gmail.com |\n| Boda Sandeep Kumar | Media & Creative Director | 8019294885 | sandeepkumarboda777@gmail.com |\n| Grandhe Veera Venkata Sravya | Media & Creative Associate | 6304651563 | grandheveeravenkatasravya@gmail.com |\n| Rokkala Sahith | Media & Creative Associate | 9550694280 | rokkaladhoni410@gmail.com |\n| Chittukuri Anil Kumar | Public Relations & Social Media Director | 6281852558 | anilkumarchittuluri@gmail.com |\n| Palukuru Jeevanmai | Public Relations & Social Media Associate | 8142483559 | jeevanmaipalukuru@gmail.com |"
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786591714277",
+      "question": "hi",
+      "timestamp": "2026-08-13 08:58:34",
+      "answer": "I couldn't find a verified answer to this question in the 8 official club documents.\nTo get official details, please reach out directly to our campus club leads listed below.",
+      "grounded": false,
+      "sources": [],
+      "fallback": true,
+      "contact": {
+        "name": "Shanmukha Sasi Sadineni",
+        "role": "AWS Student Builder Group Leader",
+        "email": "sadinenisasi@gmail.com",
+        "phone": "7396025334",
+        "department": "Group Leadership",
+        "area": "General Club Help & Overall Leadership"
+      }
+    },
+    {
+      "id": "1786590445974",
+      "question": "what is amazon bedrock",
+      "timestamp": "2026-08-13 08:37:25",
+      "answer": "Amazon Bedrock is a managed service for accessing foundation models via API. The AWS production RAG flow uses **Amazon S3** (document ingestion), **OpenSearch Serverless / Bedrock Knowledge Bases** (vector indexing), and Bedrock models for grounded generation with strict citations.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "04",
+          "filename": "04-bedrock-starter.md",
+          "doc_title": "Getting Started with Amazon Bedrock",
+          "section": "Learn more",
+          "excerpt": "- [Amazon Bedrock documentation](https://docs.aws.amazon.com/bedrock/)\n- [Bedrock Knowledge Bases](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html)",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/04-bedrock-starter.md",
+          "category": "AI / Bedrock",
+          "score": 1.338,
+          "match_strength": "Strong",
+          "full_content": "- [Amazon Bedrock documentation](https://docs.aws.amazon.com/bedrock/)\n- [Bedrock Knowledge Bases](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html)"
+        },
+        {
+          "doc_id": "04",
+          "filename": "04-bedrock-starter.md",
+          "doc_title": "Getting Started with Amazon Bedrock",
+          "section": "What is Bedrock?",
+          "excerpt": "Amazon Bedrock is a managed service to call foundation models through an API. For the Club Member Portal chatbot, teams often use Bedrock in the **AWS deployment story** (pitch and...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/04-bedrock-starter.md",
+          "category": "AI / Bedrock",
+          "score": 1.063,
+          "match_strength": "Strong",
+          "full_content": "Amazon Bedrock is a managed service to call foundation models through an API. For the Club Member Portal chatbot, teams often use Bedrock in the **AWS deployment story** (pitch and Builder Center), even when the hackathon demo runs locally with another model."
+        },
+        {
+          "doc_id": "04",
+          "filename": "04-bedrock-starter.md",
+          "doc_title": "Getting Started with Amazon Bedrock",
+          "section": "Typical RAG flow on AWS",
+          "excerpt": "1. **Ingest** \u2014 club documents in Amazon S3.\n2. **Index** \u2014 embeddings in OpenSearch Serverless or Bedrock Knowledge Bases.\n3. **Retrieve** \u2014 top chunks for the user question.\n4. *...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/04-bedrock-starter.md",
+          "category": "AI / Bedrock",
+          "score": 0.686,
+          "match_strength": "Strong",
+          "full_content": "1. **Ingest** \u2014 club documents in Amazon S3.\n2. **Index** \u2014 embeddings in OpenSearch Serverless or Bedrock Knowledge Bases.\n3. **Retrieve** \u2014 top chunks for the user question.\n4. **Generate** \u2014 Bedrock model answers using only retrieved context.\n5. **Cite** \u2014 return source file names in the UI."
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786590252455",
+      "question": "give me the editor details",
+      "timestamp": "2026-08-13 08:34:12",
+      "answer": "I couldn't find this specific information in the official AWS Student Builder documents. To get exact details, please contact our campus leadership directly below.",
+      "grounded": false,
+      "sources": [],
+      "fallback": true,
+      "contact": {
+        "name": "Shanmukha Sasi Sadineni",
+        "role": "AWS Student Builder Group Leader",
+        "email": "sadinenisasi@gmail.com",
+        "phone": "7396025334",
+        "department": "Group Leadership",
+        "area": "General Club Help & Overall Leadership"
+      }
+    },
+    {
+      "id": "1786590228440",
+      "question": "hello",
+      "timestamp": "2026-08-13 08:33:48",
+      "answer": "I couldn't find this specific information in the official AWS Student Builder documents. To get exact details, please contact our campus leadership directly below.",
+      "grounded": false,
+      "sources": [],
+      "fallback": true,
+      "contact": {
+        "name": "Shanmukha Sasi Sadineni",
+        "role": "AWS Student Builder Group Leader",
+        "email": "sadinenisasi@gmail.com",
+        "phone": "7396025334",
+        "department": "Group Leadership",
+        "area": "General Club Help & Overall Leadership"
+      }
+    },
+    {
+      "id": "1786590217406",
+      "question": "What is Amazon Bedrock?",
+      "timestamp": "2026-08-13 08:33:37",
+      "answer": "Amazon Bedrock is a managed service for accessing foundation models via API. The AWS production RAG flow uses **Amazon S3** (document ingestion), **OpenSearch Serverless / Bedrock Knowledge Bases** (vector indexing), and Bedrock models for grounded generation with strict citations.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "04",
+          "filename": "04-bedrock-starter.md",
+          "doc_title": "Getting Started with Amazon Bedrock",
+          "section": "Learn more",
+          "excerpt": "- [Amazon Bedrock documentation](https://docs.aws.amazon.com/bedrock/)\n- [Bedrock Knowledge Bases](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html)",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/04-bedrock-starter.md",
+          "category": "AI / Bedrock",
+          "score": 1.338,
+          "match_strength": "Strong",
+          "full_content": "- [Amazon Bedrock documentation](https://docs.aws.amazon.com/bedrock/)\n- [Bedrock Knowledge Bases](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html)"
+        },
+        {
+          "doc_id": "04",
+          "filename": "04-bedrock-starter.md",
+          "doc_title": "Getting Started with Amazon Bedrock",
+          "section": "What is Bedrock?",
+          "excerpt": "Amazon Bedrock is a managed service to call foundation models through an API. For the Club Member Portal chatbot, teams often use Bedrock in the **AWS deployment story** (pitch and...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/04-bedrock-starter.md",
+          "category": "AI / Bedrock",
+          "score": 1.063,
+          "match_strength": "Strong",
+          "full_content": "Amazon Bedrock is a managed service to call foundation models through an API. For the Club Member Portal chatbot, teams often use Bedrock in the **AWS deployment story** (pitch and Builder Center), even when the hackathon demo runs locally with another model."
+        },
+        {
+          "doc_id": "04",
+          "filename": "04-bedrock-starter.md",
+          "doc_title": "Getting Started with Amazon Bedrock",
+          "section": "Typical RAG flow on AWS",
+          "excerpt": "1. **Ingest** \u2014 club documents in Amazon S3.\n2. **Index** \u2014 embeddings in OpenSearch Serverless or Bedrock Knowledge Bases.\n3. **Retrieve** \u2014 top chunks for the user question.\n4. *...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/04-bedrock-starter.md",
+          "category": "AI / Bedrock",
+          "score": 0.686,
+          "match_strength": "Strong",
+          "full_content": "1. **Ingest** \u2014 club documents in Amazon S3.\n2. **Index** \u2014 embeddings in OpenSearch Serverless or Bedrock Knowledge Bases.\n3. **Retrieve** \u2014 top chunks for the user question.\n4. **Generate** \u2014 Bedrock model answers using only retrieved context.\n5. **Cite** \u2014 return source file names in the UI."
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786589997508",
+      "question": "who is the editor director",
+      "timestamp": "2026-08-13 08:29:57",
+      "answer": "Based on **08-sbg-community.md** (Our campus chapter):\n\n| Area | Lead |\n| --- | --- |\n| Group | Shanmukha Sasi Sadineni \u2014 AWS Student Builder Group Leader |\n| Technical | Revan Kumar Goud Bommagoni \u2014 Technical Lead |\n| Community outreach | Rashesh Reddy Yarram \u2014 Director |\n| Events & operations | Panala Aditya \u2014 Director |\n| Media & creative | Boda Sandeep Kumar \u2014 Director |\n| Public relations & social media | Chittukuri Anil Kumar \u2014 Director |",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "08",
+          "filename": "08-sbg-community.md",
+          "doc_title": "AWS Student Builder Groups Community",
+          "section": "Our campus chapter",
+          "excerpt": "| Area | Lead |\n| --- | --- |\n| Group | Shanmukha Sasi Sadineni \u2014 AWS Student Builder Group Leader |\n| Technical | Revan Kumar Goud Bommagoni \u2014 Technical Lead |\n| Community outreac...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/08-sbg-community.md",
+          "category": "Community",
+          "score": 0.246,
+          "match_strength": "Moderate",
+          "full_content": "| Area | Lead |\n| --- | --- |\n| Group | Shanmukha Sasi Sadineni \u2014 AWS Student Builder Group Leader |\n| Technical | Revan Kumar Goud Bommagoni \u2014 Technical Lead |\n| Community outreach | Rashesh Reddy Yarram \u2014 Director |\n| Events & operations | Panala Aditya \u2014 Director |\n| Media & creative | Boda Sandeep Kumar \u2014 Director |\n| Public relations & social media | Chittukuri Anil Kumar \u2014 Director |"
+        },
+        {
+          "doc_id": "01",
+          "filename": "01-onboarding-faq.md",
+          "doc_title": "New Member FAQ & Club Directory",
+          "section": "Campus AWS Student Builder \u2014 club directory",
+          "excerpt": "| Name | Role | Phone | Email |\n| --- | --- | --- | --- |\n| Shanmukha Sasi Sadineni | AWS Student Builder Group Leader | 7396025334 | sadinenisasi@gmail.com |\n| Revan Kumar Goud Bo...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/01-onboarding-faq.md",
+          "category": "Onboarding",
+          "score": 0.081,
+          "match_strength": "Moderate",
+          "full_content": "| Name | Role | Phone | Email |\n| --- | --- | --- | --- |\n| Shanmukha Sasi Sadineni | AWS Student Builder Group Leader | 7396025334 | sadinenisasi@gmail.com |\n| Revan Kumar Goud Bommagoni | Technical Lead | 8106105746 | brevankumargoud@gmail.com |\n| Shaik Suhail | Technical Associate | 8244793270 | \u2014 |\n| Katta Naga Sai Nikhila | Technical Associate | 6302951898 | kattasainikhila@gmail.com |\n| Rashesh Reddy Yarram | Community Outreach & Engagement Director | 8985468719 | yarramradheshreddy@gmail.com |\n| Palavari Navyasree | Community Outreach & Engagement Associate | 6300489908 | navyasreepalavari@gmail.com |\n| Panala Aditya | Events & Operations Director | 9133770055 | \u2014 |\n| Bee Bee Reshma Shaik | Events & Operations Associate | 9963098234 | beebeereshma.55@gmail.com |\n| Boda Sandeep Kumar | Media & Creative Director | 8019294885 | sandeepkumarboda777@gmail.com |\n| Grandhe Veera Venkata Sravya | Media & Creative Associate | 6304651563 | grandheveeravenkatasravya@gmail.com |\n| Rokkala Sahith | Media & Creative Associate | 9550694280 | rokkaladhoni410@gmail.com |\n| Chittukuri Anil Kumar | Public Relations & Social Media Director | 6281852558 | anilkumarchittuluri@gmail.com |\n| Palukuru Jeevanmai | Public Relations & Social Media Associate | 8142483559 | jeevanmaipalukuru@gmail.com |"
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786589984781",
+      "question": "who can attend the next workshop",
+      "timestamp": "2026-08-13 08:29:44",
+      "answer": "The next scheduled workshop is **RAG chatbots on Bedrock** on **Feb 12** in **CS 204** (Intermediate level). Attendees should bring their AWS account and laptop. Past session slides are available in the club shared drive.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Next workshop",
+          "excerpt": "The next scheduled workshop is **RAG chatbots on Bedrock** \u2014 see the row above for room and level. Bring your AWS account and laptop.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 1.109,
+          "match_strength": "Strong",
+          "full_content": "The next scheduled workshop is **RAG chatbots on Bedrock** \u2014 see the row above for room and level. Bring your AWS account and laptop."
+        },
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Workshop index",
+          "excerpt": "| Date | Topic | Room | Level |\n| --- | --- | --- | --- |\n| Jan 15 | Intro to AWS & Free Tier | CS 101 | Beginner |\n| Jan 29 | Serverless APIs with Lambda | CS 101 | Beginner |\n| F...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 0.346,
+          "match_strength": "Moderate",
+          "full_content": "| Date | Topic | Room | Level |\n| --- | --- | --- | --- |\n| Jan 15 | Intro to AWS & Free Tier | CS 101 | Beginner |\n| Jan 29 | Serverless APIs with Lambda | CS 101 | Beginner |\n| Feb 12 | RAG chatbots on Bedrock | CS 204 | Intermediate |\n| Feb 26 | Builder Center publish party | Library 3F | All |\n| Mar 12 | Hackathon prep clinic | CS 101 | All |"
+        },
+        {
+          "doc_id": "01",
+          "filename": "01-onboarding-faq.md",
+          "doc_title": "New Member FAQ & Club Directory",
+          "section": "Who can attend workshops?",
+          "excerpt": "Any student with an AWS account (free tier is fine). Bring your laptop. First-time attendees should read the AWS account setup guide before the session.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/01-onboarding-faq.md",
+          "category": "Onboarding",
+          "score": 0.284,
+          "match_strength": "Moderate",
+          "full_content": "Any student with an AWS account (free tier is fine). Bring your laptop. First-time attendees should read the AWS account setup guide before the session."
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786589970597",
+      "question": "hi",
+      "timestamp": "2026-08-13 08:29:30",
+      "answer": "I couldn't find this specific information in the official AWS Student Builder documents. To get exact details, please contact our campus leadership directly below.",
+      "grounded": false,
+      "sources": [],
+      "fallback": true,
+      "contact": {
+        "name": "Shanmukha Sasi Sadineni",
+        "role": "AWS Student Builder Group Leader",
+        "email": "sadinenisasi@gmail.com",
+        "phone": "7396025334",
+        "department": "Group Leadership",
+        "area": "General Club Help & Overall Leadership"
+      }
+    },
+    {
+      "id": "1786586555898",
+      "question": "hi",
+      "timestamp": "2026-08-13 07:32:35",
+      "answer": "I couldn't find this information in the official AWS Student Builder documents. For verified guidance, please reach out directly to our campus leadership.",
+      "grounded": false,
+      "sources": [],
+      "fallback": true,
+      "contact": {
+        "name": "Shanmukha Sasi Sadineni",
+        "role": "AWS Student Builder Group Leader",
+        "email": "sadinenisasi@gmail.com",
+        "phone": "7396025334",
+        "area": "General Club Help & Overall Leadership"
+      }
+    },
+    {
+      "id": "1786586206877",
+      "question": "hi",
+      "timestamp": "2026-08-13 07:26:46",
+      "answer": "I couldn't find this information in the official AWS Student Builder documents. For verified guidance, please reach out directly to our campus leadership.",
+      "grounded": false,
+      "sources": [],
+      "fallback": true,
+      "contact": {
+        "name": "Shanmukha Sasi Sadineni",
+        "role": "AWS Student Builder Group Leader",
+        "email": "sadinenisasi@gmail.com",
+        "phone": "7396025334",
+        "area": "General Club Help & Overall Leadership"
+      }
+    },
+    {
+      "id": "1786586186863",
+      "question": "who can attend the next  workshop",
+      "timestamp": "2026-08-13 07:26:26",
+      "answer": "To join the AWS Student Builder Group, sign up on the Club Member Portal with your campus email. General meetings are held **Wednesdays at 6:00 PM** in CS building, Room 101. Any student with an AWS account (Free Tier is fine) can attend workshops!",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Next workshop",
+          "excerpt": "The next scheduled workshop is **RAG chatbots on Bedrock** \u2014 see the row above for room and level. Bring your AWS account and laptop.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 1.109,
+          "match_strength": "Strong",
+          "full_content": "The next scheduled workshop is **RAG chatbots on Bedrock** \u2014 see the row above for room and level. Bring your AWS account and laptop."
+        },
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Workshop index",
+          "excerpt": "| Date | Topic | Room | Level |\n| --- | --- | --- | --- |\n| Jan 15 | Intro to AWS & Free Tier | CS 101 | Beginner |\n| Jan 29 | Serverless APIs with Lambda | CS 101 | Beginner |\n| F...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 0.346,
+          "match_strength": "Moderate",
+          "full_content": "| Date | Topic | Room | Level |\n| --- | --- | --- | --- |\n| Jan 15 | Intro to AWS & Free Tier | CS 101 | Beginner |\n| Jan 29 | Serverless APIs with Lambda | CS 101 | Beginner |\n| Feb 12 | RAG chatbots on Bedrock | CS 204 | Intermediate |\n| Feb 26 | Builder Center publish party | Library 3F | All |\n| Mar 12 | Hackathon prep clinic | CS 101 | All |"
+        },
+        {
+          "doc_id": "01",
+          "filename": "01-onboarding-faq.md",
+          "doc_title": "New Member FAQ & Club Directory",
+          "section": "Who can attend workshops?",
+          "excerpt": "Any student with an AWS account (free tier is fine). Bring your laptop. First-time attendees should read the AWS account setup guide before the session.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/01-onboarding-faq.md",
+          "category": "Onboarding",
+          "score": 0.284,
+          "match_strength": "Moderate",
+          "full_content": "Any student with an AWS account (free tier is fine). Bring your laptop. First-time attendees should read the AWS account setup guide before the session."
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786586166857",
+      "question": "who can attend the workshops",
+      "timestamp": "2026-08-13 07:26:06",
+      "answer": "The next scheduled workshop is **RAG chatbots on Bedrock** on **Feb 12** in **CS 204** (Intermediate level). Attendees should bring their AWS account and laptop. Past session slides are available in the club shared drive.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "01",
+          "filename": "01-onboarding-faq.md",
+          "doc_title": "New Member FAQ & Club Directory",
+          "section": "Who can attend workshops?",
+          "excerpt": "Any student with an AWS account (free tier is fine). Bring your laptop. First-time attendees should read the AWS account setup guide before the session.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/01-onboarding-faq.md",
+          "category": "Onboarding",
+          "score": 0.842,
+          "match_strength": "Strong",
+          "full_content": "Any student with an AWS account (free tier is fine). Bring your laptop. First-time attendees should read the AWS account setup guide before the session."
+        },
+        {
+          "doc_id": "08",
+          "filename": "08-sbg-community.md",
+          "doc_title": "AWS Student Builder Groups Community",
+          "section": "What members do",
+          "excerpt": "- Attend workshops and build projects.\n- Publish articles on [builder.aws.com](https://builder.aws.com).\n- Join campus hackathons like the Club Member Portal challenge.\n- Connect w...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/08-sbg-community.md",
+          "category": "Community",
+          "score": 0.213,
+          "match_strength": "Moderate",
+          "full_content": "- Attend workshops and build projects.\n- Publish articles on [builder.aws.com](https://builder.aws.com).\n- Join campus hackathons like the Club Member Portal challenge.\n- Connect with peers and AWS student programs."
+        },
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Workshop index",
+          "excerpt": "| Date | Topic | Room | Level |\n| --- | --- | --- | --- |\n| Jan 15 | Intro to AWS & Free Tier | CS 101 | Beginner |\n| Jan 29 | Serverless APIs with Lambda | CS 101 | Beginner |\n| F...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 0.1,
+          "match_strength": "Moderate",
+          "full_content": "| Date | Topic | Room | Level |\n| --- | --- | --- | --- |\n| Jan 15 | Intro to AWS & Free Tier | CS 101 | Beginner |\n| Jan 29 | Serverless APIs with Lambda | CS 101 | Beginner |\n| Feb 12 | RAG chatbots on Bedrock | CS 204 | Intermediate |\n| Feb 26 | Builder Center publish party | Library 3F | All |\n| Mar 12 | Hackathon prep clinic | CS 101 | All |"
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786586150311",
+      "question": "When is the next workshop?",
+      "timestamp": "2026-08-13 07:25:50",
+      "answer": "The next scheduled workshop is **RAG chatbots on Bedrock** on **Feb 12** in **CS 204** (Intermediate level). Attendees should bring their AWS account and laptop. Past session slides are available in the club shared drive.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Next workshop",
+          "excerpt": "The next scheduled workshop is **RAG chatbots on Bedrock** \u2014 see the row above for room and level. Bring your AWS account and laptop.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 1.331,
+          "match_strength": "Strong",
+          "full_content": "The next scheduled workshop is **RAG chatbots on Bedrock** \u2014 see the row above for room and level. Bring your AWS account and laptop."
+        },
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Workshop index",
+          "excerpt": "| Date | Topic | Room | Level |\n| --- | --- | --- | --- |\n| Jan 15 | Intro to AWS & Free Tier | CS 101 | Beginner |\n| Jan 29 | Serverless APIs with Lambda | CS 101 | Beginner |\n| F...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 0.389,
+          "match_strength": "Moderate",
+          "full_content": "| Date | Topic | Room | Level |\n| --- | --- | --- | --- |\n| Jan 15 | Intro to AWS & Free Tier | CS 101 | Beginner |\n| Jan 29 | Serverless APIs with Lambda | CS 101 | Beginner |\n| Feb 12 | RAG chatbots on Bedrock | CS 204 | Intermediate |\n| Feb 26 | Builder Center publish party | Library 3F | All |\n| Mar 12 | Hackathon prep clinic | CS 101 | All |"
+        },
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Suggest a topic",
+          "excerpt": "Post ideas in the portal chat or ask your Student Builder lead at the next meeting.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 0.261,
+          "match_strength": "Moderate",
+          "full_content": "Post ideas in the portal chat or ask your Student Builder lead at the next meeting."
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786586142668",
+      "question": "hi",
+      "timestamp": "2026-08-13 07:25:42",
+      "answer": "I couldn't find this information in the official AWS Student Builder documents. For verified guidance, please reach out directly to our campus leadership.",
+      "grounded": false,
+      "sources": [],
+      "fallback": true,
+      "contact": {
+        "name": "Shanmukha Sasi Sadineni",
+        "role": "AWS Student Builder Group Leader",
+        "email": "sadinenisasi@gmail.com",
+        "phone": "7396025334",
+        "area": "General Club Help & Overall Leadership"
+      }
+    },
+    {
+      "id": "1786583107396",
+      "question": "what are the hackathon rules",
+      "timestamp": "2026-08-13 06:35:07",
+      "answer": "AWS Student Builder Hackathon Rules:\n\u2022 **Teams**: 2\u20133 students per team (one submission per team).\n\u2022 **Demo**: Local demo is accepted; live AWS deployment earns bonus credit.\n\u2022 **Builder Center**: Every team must publish a project article.\n\u2022 **AI Grounding**: Chat responses must ground in club docs with citations.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "08",
+          "filename": "08-sbg-community.md",
+          "doc_title": "AWS Student Builder Groups Community",
+          "section": "This hackathon",
+          "excerpt": "You are building a **Club Member Portal** \u2014 login, chat grounded in club docs, with sources on every answer. When the bot cannot help, it should direct members to the club director...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/08-sbg-community.md",
+          "category": "Community",
+          "score": 0.279,
+          "match_strength": "Moderate",
+          "full_content": "You are building a **Club Member Portal** \u2014 login, chat grounded in club docs, with sources on every answer. When the bot cannot help, it should direct members to the club directory in the onboarding FAQ."
+        },
+        {
+          "doc_id": "05",
+          "filename": "05-hackathon-rules.md",
+          "doc_title": "Hackathon Rule Book",
+          "section": "Teams",
+          "excerpt": "- 2\u20133 students only per team\n- One submission per team",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/05-hackathon-rules.md",
+          "category": "Hackathon",
+          "score": 0.175,
+          "match_strength": "Moderate",
+          "full_content": "- 2\u20133 students only per team\n- One submission per team"
+        },
+        {
+          "doc_id": "05",
+          "filename": "05-hackathon-rules.md",
+          "doc_title": "Hackathon Rule Book",
+          "section": "Demo",
+          "excerpt": "- Local demo is accepted\n- Live AWS deployment = bonus only",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/05-hackathon-rules.md",
+          "category": "Hackathon",
+          "score": 0.175,
+          "match_strength": "Moderate",
+          "full_content": "- Local demo is accepted\n- Live AWS deployment = bonus only"
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786583039771",
+      "question": "how do i join the club?",
+      "timestamp": "2026-08-13 06:33:59",
+      "answer": "To join the AWS Student Builder Group, sign up on the Club Member Portal with your campus email. General meetings are held **Wednesdays at 6:00 PM** in CS building, Room 101. Any student with an AWS account (Free Tier is fine) can attend workshops!",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "01",
+          "filename": "01-onboarding-faq.md",
+          "doc_title": "New Member FAQ & Club Directory",
+          "section": "How do I join the club?",
+          "excerpt": "Sign up on the Club Member Portal with your campus email. After login you can use the chatbot to ask about workshops, Builder Center, club events, and who to contact on the team.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/01-onboarding-faq.md",
+          "category": "Onboarding",
+          "score": 1.001,
+          "match_strength": "Strong",
+          "full_content": "Sign up on the Club Member Portal with your campus email. After login you can use the chatbot to ask about workshops, Builder Center, club events, and who to contact on the team."
+        },
+        {
+          "doc_id": "01",
+          "filename": "01-onboarding-faq.md",
+          "doc_title": "New Member FAQ & Club Directory",
+          "section": "Campus AWS Student Builder \u2014 club directory",
+          "excerpt": "**Example bot fallback:** *\"I could not find that in the club documents. Please contact Shanmukha Sasi Sadineni, AWS Student Builder Group Leader, at sadinenisasi@gmail.com or 7396...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/01-onboarding-faq.md",
+          "category": "Onboarding",
+          "score": 0.43,
+          "match_strength": "Strong",
+          "full_content": "**Example bot fallback:** *\"I could not find that in the club documents. Please contact Shanmukha Sasi Sadineni, AWS Student Builder Group Leader, at sadinenisasi@gmail.com or 7396025334.\"*"
+        },
+        {
+          "doc_id": "01",
+          "filename": "01-onboarding-faq.md",
+          "doc_title": "New Member FAQ & Club Directory",
+          "section": "Campus AWS Student Builder \u2014 club directory",
+          "excerpt": "When the chatbot cannot answer from club documents, **direct the member to the right person below** \u2014 include their name, role, and how to reach them. Do not stop at \"I don't know....",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/01-onboarding-faq.md",
+          "category": "Onboarding",
+          "score": 0.418,
+          "match_strength": "Strong",
+          "full_content": "When the chatbot cannot answer from club documents, **direct the member to the right person below** \u2014 include their name, role, and how to reach them. Do not stop at \"I don't know.\""
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786582972688",
+      "question": "hi",
+      "timestamp": "2026-08-13 06:32:52",
+      "answer": "I couldn't find this information in the official AWS Student Builder documents. For verified guidance, please reach out directly to our campus leadership.",
+      "grounded": false,
+      "sources": [],
+      "fallback": true,
+      "contact": {
+        "name": "Shanmukha Sasi Sadineni",
+        "role": "AWS Student Builder Group Leader",
+        "email": "sadinenisasi@gmail.com",
+        "phone": "7396025334",
+        "area": "General Club Help & Overall Leadership"
+      }
+    },
+    {
+      "id": "1786582967026",
+      "question": "Workshop index",
+      "timestamp": "2026-08-13 06:32:47",
+      "answer": "The next scheduled workshop is **RAG chatbots on Bedrock** on **Feb 12** in **CS 204** (Intermediate level). Attendees should bring their AWS account and laptop. Past session slides are available in the club shared drive.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Workshop index",
+          "excerpt": "| Date | Topic | Room | Level |\n| --- | --- | --- | --- |\n| Jan 15 | Intro to AWS & Free Tier | CS 101 | Beginner |\n| Jan 29 | Serverless APIs with Lambda | CS 101 | Beginner |\n| F...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 1.037,
+          "match_strength": "Strong",
+          "full_content": "| Date | Topic | Room | Level |\n| --- | --- | --- | --- |\n| Jan 15 | Intro to AWS & Free Tier | CS 101 | Beginner |\n| Jan 29 | Serverless APIs with Lambda | CS 101 | Beginner |\n| Feb 12 | RAG chatbots on Bedrock | CS 204 | Intermediate |\n| Feb 26 | Builder Center publish party | Library 3F | All |\n| Mar 12 | Hackathon prep clinic | CS 101 | All |"
+        },
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Next workshop",
+          "excerpt": "The next scheduled workshop is **RAG chatbots on Bedrock** \u2014 see the row above for room and level. Bring your AWS account and laptop.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 0.659,
+          "match_strength": "Strong",
+          "full_content": "The next scheduled workshop is **RAG chatbots on Bedrock** \u2014 see the row above for room and level. Bring your AWS account and laptop."
+        },
+        {
+          "doc_id": "01",
+          "filename": "01-onboarding-faq.md",
+          "doc_title": "New Member FAQ & Club Directory",
+          "section": "When are meetings?",
+          "excerpt": "General meetings are **Wednesdays at 6:00 PM** in the CS building, Room 101. Check the workshop index for special sessions.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/01-onboarding-faq.md",
+          "category": "Onboarding",
+          "score": 0.29,
+          "match_strength": "Moderate",
+          "full_content": "General meetings are **Wednesdays at 6:00 PM** in the CS building, Room 101. Check the workshop index for special sessions."
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786582924851",
+      "question": "When is the next workshop?",
+      "timestamp": "2026-08-13 06:32:04",
+      "answer": "The next scheduled workshop is **RAG chatbots on Bedrock** on **Feb 12** in **CS 204** (Intermediate level). Attendees should bring their AWS account and laptop. Past session slides are available in the club shared drive.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Next workshop",
+          "excerpt": "The next scheduled workshop is **RAG chatbots on Bedrock** \u2014 see the row above for room and level. Bring your AWS account and laptop.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 1.331,
+          "match_strength": "Strong",
+          "full_content": "The next scheduled workshop is **RAG chatbots on Bedrock** \u2014 see the row above for room and level. Bring your AWS account and laptop."
+        },
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Workshop index",
+          "excerpt": "| Date | Topic | Room | Level |\n| --- | --- | --- | --- |\n| Jan 15 | Intro to AWS & Free Tier | CS 101 | Beginner |\n| Jan 29 | Serverless APIs with Lambda | CS 101 | Beginner |\n| F...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 0.389,
+          "match_strength": "Moderate",
+          "full_content": "| Date | Topic | Room | Level |\n| --- | --- | --- | --- |\n| Jan 15 | Intro to AWS & Free Tier | CS 101 | Beginner |\n| Jan 29 | Serverless APIs with Lambda | CS 101 | Beginner |\n| Feb 12 | RAG chatbots on Bedrock | CS 204 | Intermediate |\n| Feb 26 | Builder Center publish party | Library 3F | All |\n| Mar 12 | Hackathon prep clinic | CS 101 | All |"
+        },
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Suggest a topic",
+          "excerpt": "Post ideas in the portal chat or ask your Student Builder lead at the next meeting.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 0.261,
+          "match_strength": "Moderate",
+          "full_content": "Post ideas in the portal chat or ask your Student Builder lead at the next meeting."
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    }
+  ],
+  "papapc06@gmail.com": [
+    {
+      "id": "1786584744320",
+      "question": "hiii",
+      "timestamp": "2026-08-13 07:02:24",
+      "answer": "I couldn't find this information in the official AWS Student Builder documents. For verified guidance, please reach out directly to our campus leadership.",
+      "grounded": false,
+      "sources": [],
+      "fallback": true,
+      "contact": {
+        "name": "Shanmukha Sasi Sadineni",
+        "role": "AWS Student Builder Group Leader",
+        "email": "sadinenisasi@gmail.com",
+        "phone": "7396025334",
+        "area": "General Club Help & Overall Leadership"
+      }
+    },
+    {
+      "id": "1786584718483",
+      "question": "What are the hackathon rules?",
+      "timestamp": "2026-08-13 07:01:58",
+      "answer": "AWS Student Builder Hackathon Rules:\n\u2022 **Teams**: 2\u20133 students per team (one submission per team).\n\u2022 **Demo**: Local demo is accepted; live AWS deployment earns bonus credit.\n\u2022 **Builder Center**: Every team must publish a project article.\n\u2022 **AI Grounding**: Chat responses must ground in club docs with citations.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "08",
+          "filename": "08-sbg-community.md",
+          "doc_title": "AWS Student Builder Groups Community",
+          "section": "This hackathon",
+          "excerpt": "You are building a **Club Member Portal** \u2014 login, chat grounded in club docs, with sources on every answer. When the bot cannot help, it should direct members to the club director...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/08-sbg-community.md",
+          "category": "Community",
+          "score": 0.279,
+          "match_strength": "Moderate",
+          "full_content": "You are building a **Club Member Portal** \u2014 login, chat grounded in club docs, with sources on every answer. When the bot cannot help, it should direct members to the club directory in the onboarding FAQ."
+        },
+        {
+          "doc_id": "05",
+          "filename": "05-hackathon-rules.md",
+          "doc_title": "Hackathon Rule Book",
+          "section": "Teams",
+          "excerpt": "- 2\u20133 students only per team\n- One submission per team",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/05-hackathon-rules.md",
+          "category": "Hackathon",
+          "score": 0.175,
+          "match_strength": "Moderate",
+          "full_content": "- 2\u20133 students only per team\n- One submission per team"
+        },
+        {
+          "doc_id": "05",
+          "filename": "05-hackathon-rules.md",
+          "doc_title": "Hackathon Rule Book",
+          "section": "Demo",
+          "excerpt": "- Local demo is accepted\n- Live AWS deployment = bonus only",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/05-hackathon-rules.md",
+          "category": "Hackathon",
+          "score": 0.175,
+          "match_strength": "Moderate",
+          "full_content": "- Local demo is accepted\n- Live AWS deployment = bonus only"
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786584704161",
+      "question": "How do I publish on Builder Center?",
+      "timestamp": "2026-08-13 07:01:44",
+      "answer": "To publish on AWS Builder Center:\n1. Sign in at [builder.aws.com](https://builder.aws.com).\n2. Choose **Create** \u2192 **Article**.\n3. Add a title, summary, screenshots, and explain your AWS architecture (Cognito, SES, S3, API, Bedrock).\n4. Add tags: `#aws-student-builders-groups`, `#buildonaws`, `#amazon-bedrock`, `#rag`.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "01",
+          "filename": "01-onboarding-faq.md",
+          "doc_title": "New Member FAQ & Club Directory",
+          "section": "What is Builder Center?",
+          "excerpt": "AWS Builder Center is where Student Builders publish what they build. Every hackathon team must publish an article \u2014 see `03-builder-center-publish.md`.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/01-onboarding-faq.md",
+          "category": "Onboarding",
+          "score": 1.441,
+          "match_strength": "Strong",
+          "full_content": "AWS Builder Center is where Student Builders publish what they build. Every hackathon team must publish an article \u2014 see `03-builder-center-publish.md`."
+        },
+        {
+          "doc_id": "03",
+          "filename": "03-builder-center-publish.md",
+          "doc_title": "AWS Builder Center Publishing Guide",
+          "section": "Why publish?",
+          "excerpt": "Builder Center is the public home for what Student Builders create. Hackathon teams **must** publish an article describing the Club Member Portal and how it could run on AWS.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/03-builder-center-publish.md",
+          "category": "Builder Center",
+          "score": 1.353,
+          "match_strength": "Strong",
+          "full_content": "Builder Center is the public home for what Student Builders create. Hackathon teams **must** publish an article describing the Club Member Portal and how it could run on AWS."
+        },
+        {
+          "doc_id": "05",
+          "filename": "05-hackathon-rules.md",
+          "doc_title": "Hackathon Rule Book",
+          "section": "Builder Center",
+          "excerpt": "- Required article for every team",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/05-hackathon-rules.md",
+          "category": "Hackathon",
+          "score": 1.068,
+          "match_strength": "Strong",
+          "full_content": "- Required article for every team"
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    },
+    {
+      "id": "1786584694112",
+      "question": "When is the next workshop?",
+      "timestamp": "2026-08-13 07:01:34",
+      "answer": "The next scheduled workshop is **RAG chatbots on Bedrock** on **Feb 12** in **CS 204** (Intermediate level). Attendees should bring their AWS account and laptop. Past session slides are available in the club shared drive.",
+      "grounded": true,
+      "sources": [
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Next workshop",
+          "excerpt": "The next scheduled workshop is **RAG chatbots on Bedrock** \u2014 see the row above for room and level. Bring your AWS account and laptop.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 1.331,
+          "match_strength": "Strong",
+          "full_content": "The next scheduled workshop is **RAG chatbots on Bedrock** \u2014 see the row above for room and level. Bring your AWS account and laptop."
+        },
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Workshop index",
+          "excerpt": "| Date | Topic | Room | Level |\n| --- | --- | --- | --- |\n| Jan 15 | Intro to AWS & Free Tier | CS 101 | Beginner |\n| Jan 29 | Serverless APIs with Lambda | CS 101 | Beginner |\n| F...",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 0.389,
+          "match_strength": "Moderate",
+          "full_content": "| Date | Topic | Room | Level |\n| --- | --- | --- | --- |\n| Jan 15 | Intro to AWS & Free Tier | CS 101 | Beginner |\n| Jan 29 | Serverless APIs with Lambda | CS 101 | Beginner |\n| Feb 12 | RAG chatbots on Bedrock | CS 204 | Intermediate |\n| Feb 26 | Builder Center publish party | Library 3F | All |\n| Mar 12 | Hackathon prep clinic | CS 101 | All |"
+        },
+        {
+          "doc_id": "06",
+          "filename": "06-workshop-index.md",
+          "doc_title": "Workshop Index & Schedule",
+          "section": "Suggest a topic",
+          "excerpt": "Post ideas in the portal chat or ask your Student Builder lead at the next meeting.",
+          "url": "https://gist.githubusercontent.com/sreecharan-desu/4c43b300c48ae22a9242b783292f7288/raw/06-workshop-index.md",
+          "category": "Workshops",
+          "score": 0.261,
+          "match_strength": "Moderate",
+          "full_content": "Post ideas in the portal chat or ask your Student Builder lead at the next meeting."
+        }
+      ],
+      "fallback": false,
+      "contact": null
+    }
+  ]
+}

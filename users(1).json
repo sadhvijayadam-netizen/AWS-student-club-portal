@@ -1,0 +1,48 @@
+{
+  "builder@campus.edu": {
+    "email": "builder@campus.edu",
+    "name": "Alex Rivera (Verified)",
+    "password_hash": "8f7c27589cffc1008157318057bf24fb75328dc6aa3dae1e57240e2110105579",
+    "created_at": "2026-08-12 23:11:04",
+    "role": "Student Builder Lead",
+    "bio": "Updated AWS Bio"
+  },
+  "test@campus.edu": {
+    "email": "test@campus.edu",
+    "name": "Test Builder",
+    "password_hash": "b64571462d942d106beca51c855b2a8dbdf1bdde3e3cdb256222dd51937a8fe2",
+    "created_at": "2026-08-12 23:11:04",
+    "role": "Student Builder Member"
+  },
+  "lakshmi22092006@gmail.com": {
+    "email": "lakshmi22092006@gmail.com",
+    "name": "Ch.Prasanna",
+    "password_hash": "e72d11e2aaea0cbea04003737c4f88c8baa25ac24026fc0517dd607cd3300a97",
+    "created_at": "2026-08-13 06:29:56",
+    "role": "Student Builder Member",
+    "bio": "Student Builder community member."
+  },
+  "profile_test@campus.edu": {
+    "email": "profile_test@campus.edu",
+    "name": "Alex Rivera (Updated)",
+    "password_hash": "9807159211b13e6fe1920ccb68d45a07e6f964402ec71aa249733c489fe1519e",
+    "created_at": "2026-08-13 06:54:56",
+    "role": "Technical Lead Associate",
+    "bio": "Updated AWS Bio"
+  },
+  "papapc06@gmail.com": {
+    "email": "papapc06@gmail.com",
+    "name": "sadhvi",
+    "password_hash": "ab3776e2a2ae2bb262db3f3368e9efbfa001c6287a42046cc87e5d37f62c32b3",
+    "created_at": "2026-08-13 07:00:41",
+    "role": "Student Builder Member"
+  },
+  "admin@campus.edu": {
+    "email": "admin@campus.edu",
+    "name": "Command Center Admin",
+    "password_hash": "04445e6487736590d1ef50186b414e737e0164683cbbec64e00e73c000fd3bef",
+    "created_at": "2026-08-13 14:36:15",
+    "role": "admin",
+    "bio": "AWS Student Builder Groups Onsite Administrator."
+  }
+}
